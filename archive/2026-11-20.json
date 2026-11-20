@@ -1,87 +1,334 @@
 {
+  "quote": {
+    "text": "Les cons, ça ose tout. C'est même à ça qu'on les reconnaît.",
+    "author": "Michel Audiard",
+    "work": "Les Tontons flingueurs (1963)"
+  },
   "date": "2026-11-20",
   "date_label": "ven. 20/11/2026",
   "generated_at": "généré à 11h15 (test)",
   "markets": [
-    {"label": "OAT 10 ans", "value": "4,92 %", "change": "−2 pb", "dir": "down"},
-    {"label": "Bund 10 ans", "value": "3,32 %", "change": "−9 pb", "dir": "down"},
-    {"label": "Écart OAT-Bund", "value": "160 pb", "change": "", "dir": "flat"},
-    {"label": "US 10 ans", "value": "4,98 %", "change": "−6 pb", "dir": "down"},
-    {"label": "VIX", "value": "28,44", "change": "+15,8 %", "dir": "up", "note": "ce matin vers 28,9"},
-    {"label": "EUR/USD", "value": "1,0995", "change": "+0,18 %", "dir": "up"}
+    {
+      "label": "OAT 10 ans",
+      "value": "4,92 %",
+      "change": "−2 pb",
+      "dir": "down"
+    },
+    {
+      "label": "Bund 10 ans",
+      "value": "3,32 %",
+      "change": "−9 pb",
+      "dir": "down"
+    },
+    {
+      "label": "Écart OAT-Bund",
+      "value": "160 pb",
+      "change": "",
+      "dir": "flat"
+    },
+    {
+      "label": "US 10 ans",
+      "value": "4,98 %",
+      "change": "−6 pb",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": "28,44",
+      "change": "+15,8 %",
+      "dir": "up",
+      "note": "ce matin vers 28,9"
+    },
+    {
+      "label": "EUR/USD",
+      "value": "1,0995",
+      "change": "+0,18 %",
+      "dir": "up"
+    }
   ],
   "futures": [
-    {"symbol": "NQ", "price": "26 187", "change": "−1,55 %", "dir": "down", "range": "n/d"},
-    {"symbol": "ES", "price": "7 153", "change": "−0,61 %", "dir": "down", "range": "n/d"},
-    {"symbol": "YM", "price": "49 132", "change": "−0,10 %", "dir": "down", "range": "n/d"}
+    {
+      "symbol": "NQ",
+      "price": "26 187",
+      "change": "−1,55 %",
+      "dir": "down",
+      "range": "n/d"
+    },
+    {
+      "symbol": "ES",
+      "price": "7 153",
+      "change": "−0,61 %",
+      "dir": "down",
+      "range": "n/d"
+    },
+    {
+      "symbol": "YM",
+      "price": "49 132",
+      "change": "−0,10 %",
+      "dir": "down",
+      "range": "n/d"
+    }
   ],
   "stocks": [
-    {"ticker": "GLE", "name": "Société Générale", "price": "62,02 €", "change": "−3,26 %", "dir": "down"},
-    {"ticker": "ORA", "name": "Orange", "price": "15,12 €", "change": "+0,53 %", "dir": "up"},
-    {"ticker": "CS", "name": "AXA", "price": "44,97 €", "change": "−0,93 %", "dir": "down"},
-    {"ticker": "TTE", "name": "TotalEnergies", "price": "78,43 €", "change": "−0,92 %", "dir": "down",
-      "notes": [{"text": "EnQuest cède ses actifs en mer du Nord à NEO NEXT+ (adossé à TotalEnergies et Repsol) pour 960 M$"}]},
-    {"ticker": "ETL", "name": "Eutelsat", "price": "1,585 €", "change": "−5,65 %", "dir": "down",
-      "notes": [{"text": "Émission obligataire de 600 M€ à échéance 2032 et rachat des obligations 2028"}]},
-    {"ticker": "SEL", "name": "ETF Amundi Select Div. 30", "price": "24,09 €", "change": "−1,33 %", "dir": "down"},
-    {"ticker": "SCR", "name": "SCOR", "price": "34,64 €", "change": "−0,35 %", "dir": "down"},
-    {"ticker": "ENGI", "name": "Engie", "price": "24,13 €", "change": "−0,90 %", "dir": "down"},
-    {"ticker": "BNP", "name": "BNP Paribas", "price": "89,73 €", "change": "−2,52 %", "dir": "down",
-      "notes": [{"text": "BNL (Italie) : fermeture de 20 % des agences d'ici 2030"}]},
-    {"ticker": "ALHPI", "name": "Hopium", "price": "0,0026 €", "change": "0,0 %", "dir": "flat",
-      "notes": [{"text": "Regroupement 100 pour 1 à partir du 30/11 ; droits de conversion suspendus du 20/11 au 24/12"}]}
+    {
+      "ticker": "GLE",
+      "name": "Société Générale",
+      "price": "62,02 €",
+      "change": "−3,26 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "ORA",
+      "name": "Orange",
+      "price": "15,12 €",
+      "change": "+0,53 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "CS",
+      "name": "AXA",
+      "price": "44,97 €",
+      "change": "−0,93 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "TTE",
+      "name": "TotalEnergies",
+      "price": "78,43 €",
+      "change": "−0,92 %",
+      "dir": "down",
+      "notes": [
+        {
+          "text": "EnQuest cède ses actifs en mer du Nord à NEO NEXT+ (adossé à TotalEnergies et Repsol) pour 960 M$"
+        }
+      ]
+    },
+    {
+      "ticker": "ETL",
+      "name": "Eutelsat",
+      "price": "1,585 €",
+      "change": "−5,65 %",
+      "dir": "down",
+      "notes": [
+        {
+          "text": "Émission obligataire de 600 M€ à échéance 2032 et rachat des obligations 2028"
+        }
+      ]
+    },
+    {
+      "ticker": "SEL",
+      "name": "ETF Amundi Select Div. 30",
+      "price": "24,09 €",
+      "change": "−1,33 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "SCR",
+      "name": "SCOR",
+      "price": "34,64 €",
+      "change": "−0,35 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "ENGI",
+      "name": "Engie",
+      "price": "24,13 €",
+      "change": "−0,90 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "BNP",
+      "name": "BNP Paribas",
+      "price": "89,73 €",
+      "change": "−2,52 %",
+      "dir": "down",
+      "notes": [
+        {
+          "text": "BNL (Italie) : fermeture de 20 % des agences d'ici 2030"
+        }
+      ]
+    },
+    {
+      "ticker": "ALHPI",
+      "name": "Hopium",
+      "price": "0,0026 €",
+      "change": "0,0 %",
+      "dir": "flat",
+      "notes": [
+        {
+          "text": "Regroupement 100 pour 1 à partir du 30/11 ; droits de conversion suspendus du 20/11 au 24/12"
+        }
+      ]
+    }
   ],
   "stocks_footnote": "Dividendes/AG vérifiés le lundi.",
   "trading": {
     "events_title": "Aucune 3★ aujourd'hui — 2★ :",
     "events": [
-      {"time": "14h25", "name": "Discours Waller (Fed)", "stars": 2},
-      {"time": "16h00", "name": "Confiance Michigan finale", "detail": "consensus 51,0 / précédent 51,0", "stars": 2, "in_session": true},
-      {"time": "18h15", "name": "Discours Cook (Fed)", "stars": 2}
+      {
+        "time": "14h25",
+        "name": "Discours Waller (Fed)",
+        "stars": 2
+      },
+      {
+        "time": "16h00",
+        "name": "Confiance Michigan finale",
+        "detail": "consensus 51,0 / précédent 51,0",
+        "stars": 2,
+        "in_session": true
+      },
+      {
+        "time": "18h15",
+        "name": "Discours Cook (Fed)",
+        "stars": 2
+      }
     ],
     "countdowns": [
-      {"label": "Rollover ES/NQ/YM", "date": "jeu. 10/12", "days": 20},
-      {"label": "NFP", "date": "ven. 04/12 14h30", "days": 14},
-      {"label": "CPI", "date": "jeu. 10/12 14h30", "days": 20},
-      {"label": "FOMC", "date": "mer. 09/12 20h00", "days": 19}
+      {
+        "label": "Rollover ES/NQ/YM",
+        "date": "jeu. 10/12",
+        "days": 20
+      },
+      {
+        "label": "NFP",
+        "date": "ven. 04/12 14h30",
+        "days": 14
+      },
+      {
+        "label": "CPI",
+        "date": "jeu. 10/12 14h30",
+        "days": 20
+      },
+      {
+        "label": "FOMC",
+        "date": "mer. 09/12 20h00",
+        "days": 19
+      }
     ],
     "orientation": [
-      {"symbol": "NQ", "supertrend": "down", "level": "26 782", "flux": "down"},
-      {"symbol": "ES", "supertrend": "down", "level": "7 249", "flux": "down"},
-      {"symbol": "YM", "supertrend": "down", "level": "49 559", "flux": "down"}
+      {
+        "symbol": "NQ",
+        "supertrend": "down",
+        "level": "26 782",
+        "flux": "down"
+      },
+      {
+        "symbol": "ES",
+        "supertrend": "down",
+        "level": "7 249",
+        "flux": "down"
+      },
+      {
+        "symbol": "YM",
+        "supertrend": "down",
+        "level": "49 559",
+        "flux": "down"
+      }
     ]
   },
   "sections": [
-    {"id": "eco", "icon": "📰", "title": "Éco US/FR", "items": [
-      {"text": "Wall Street a chuté jeudi : S&P 500 −2,0 % (7 176), Nasdaq −2,3 % (plus bas depuis mi-avril), Dow −2,2 % (49 097)."},
-      {"text": "Anthropic a clôturé son 1er jour de cotation à 97,17 $ (+17 % vs 83 $), puis environ −4 % après-Bourse ; Nvidia −3,3 %, AMD −7,7 %."},
-      {"text": "Fed : hausse de 25 pb quasi entièrement anticipée le 9/12 ; CAC 40 −0,81 % à 8 081 jeudi."}
-    ]},
-    {"id": "geo", "icon": "🌍", "title": "Géopolitique", "items": [
-      {"text": "Ukraine : Zelensky a réuni une quarantaine d'alliés et les émissaires US Witkoff et Kushner à Berlin jeudi ; Poutine exclut des négociations immédiates."},
-      {"text": "Iran/pétrole : le Brent a clôturé à 91,98 $ jeudi sur un risque accru de frappes US."},
-      {"text": "Ormuz : les médias d'État iraniens font état de deux pétroliers touchés par des mines, non confirmé par Reuters."}
-    ]},
-    {"id": "pol", "icon": "🇫🇷", "title": "Politique FR", "items": [
-      {"text": "PLFSS 2027 : adopté au Sénat (201 voix contre 124, le 18/11) ; commission mixte paritaire le 26/11."},
-      {"text": "PLF 2027 : le PS indique qu'il voterait probablement une motion de censure si elle est déposée."},
-      {"text": "Présidentielle 2027 : conférence de presse « exceptionnelle » de Dominique de Villepin ce matin à 11h."}
-    ]},
-    {"id": "mma", "icon": "🥊", "title": "MMA", "items": [
-      {"text": "Manon Fiorot accepte 3 mois de suspension (jusqu'au 19/01/2027) après un contrôle positif jugé contamination accidentelle (UFC, 19/11)."},
-      {"text": "Prochains combats :", "sub": [
-        {"text": "Gane : non programmé"},
-        {"text": "BSD : 06/02/2027 contre Quillan Salkilld (UFC Sydney)"},
-        {"text": "Lehto Duclos : 05/12/2026 contre Modestino Rodrigues (Riyad)"},
-        {"text": "Fiorot : pas avant le 19/01/2027"}
-      ]}
-    ]},
-    {"id": "sci", "icon": "🔬", "title": "Science", "items": [
-      {"text": "IA : OpenAI dit avoir utilisé ses modèles pour concevoir ses puces (surface réduite d'environ 15 %)."},
-      {"text": "Spatial : Voyager 1 devient le premier objet humain à atteindre un jour-lumière de la Terre."},
-      {"text": "Spatial : l'enquête sur l'échec du lanceur Vulcan de ULA pointe une alimentation en carburant insuffisante."}
-    ]}
+    {
+      "id": "eco",
+      "icon": "📰",
+      "title": "Éco US/FR",
+      "items": [
+        {
+          "text": "Wall Street a chuté jeudi : S&P 500 −2,0 % (7 176), Nasdaq −2,3 % (plus bas depuis mi-avril), Dow −2,2 % (49 097)."
+        },
+        {
+          "text": "Anthropic a clôturé son 1er jour de cotation à 97,17 $ (+17 % vs 83 $), puis environ −4 % après-Bourse ; Nvidia −3,3 %, AMD −7,7 %."
+        },
+        {
+          "text": "Fed : hausse de 25 pb quasi entièrement anticipée le 9/12 ; CAC 40 −0,81 % à 8 081 jeudi."
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "icon": "🌍",
+      "title": "Géopolitique",
+      "items": [
+        {
+          "text": "Ukraine : Zelensky a réuni une quarantaine d'alliés et les émissaires US Witkoff et Kushner à Berlin jeudi ; Poutine exclut des négociations immédiates."
+        },
+        {
+          "text": "Iran/pétrole : le Brent a clôturé à 91,98 $ jeudi sur un risque accru de frappes US."
+        },
+        {
+          "text": "Ormuz : les médias d'État iraniens font état de deux pétroliers touchés par des mines, non confirmé par Reuters."
+        }
+      ]
+    },
+    {
+      "id": "pol",
+      "icon": "🇫🇷",
+      "title": "Politique FR",
+      "items": [
+        {
+          "text": "PLFSS 2027 : adopté au Sénat (201 voix contre 124, le 18/11) ; commission mixte paritaire le 26/11."
+        },
+        {
+          "text": "PLF 2027 : le PS indique qu'il voterait probablement une motion de censure si elle est déposée."
+        },
+        {
+          "text": "Présidentielle 2027 : conférence de presse « exceptionnelle » de Dominique de Villepin ce matin à 11h."
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "icon": "🥊",
+      "title": "MMA",
+      "items": [
+        {
+          "text": "Manon Fiorot accepte 3 mois de suspension (jusqu'au 19/01/2027) après un contrôle positif jugé contamination accidentelle (UFC, 19/11)."
+        },
+        {
+          "text": "Prochains combats :",
+          "sub": [
+            {
+              "text": "Gane : non programmé"
+            },
+            {
+              "text": "BSD : 06/02/2027 contre Quillan Salkilld (UFC Sydney)"
+            },
+            {
+              "text": "Lehto Duclos : 05/12/2026 contre Modestino Rodrigues (Riyad)"
+            },
+            {
+              "text": "Fiorot : pas avant le 19/01/2027"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci",
+      "icon": "🔬",
+      "title": "Science",
+      "items": [
+        {
+          "text": "IA : OpenAI dit avoir utilisé ses modèles pour concevoir ses puces (surface réduite d'environ 15 %)."
+        },
+        {
+          "text": "Spatial : Voyager 1 devient le premier objet humain à atteindre un jour-lumière de la Terre."
+        },
+        {
+          "text": "Spatial : l'enquête sur l'échec du lanceur Vulcan de ULA pointe une alimentation en carburant insuffisante."
+        }
+      ]
+    }
   ],
-  "warnings": ["Page de démonstration construite à partir du test de 11h15 ; les niveaux de Supertrend viennent du test de 10h35."],
-  "sources": ["TradingView", "Trading Economics", "AP", "Zonebourse", "Public Sénat", "UFC.com", "Spaceflight Now"]
+  "warnings": [
+    "Page de démonstration construite à partir du test de 11h15 ; les niveaux de Supertrend viennent du test de 10h35."
+  ],
+  "sources": [
+    "TradingView",
+    "Trading Economics",
+    "AP",
+    "Zonebourse",
+    "Public Sénat",
+    "UFC.com",
+    "Spaceflight Now"
+  ]
 }

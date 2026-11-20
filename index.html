@@ -45,6 +45,9 @@
   .badge.hot{border-color:var(--warn);color:var(--warn)}
   .note{color:var(--muted);font-size:12px;margin-top:6px}
   footer{max-width:880px;margin:0 auto;padding:4px 14px 24px;color:var(--muted);font-size:12px}
+  .quote{border-left:4px solid var(--warn)}
+  .quote blockquote{margin:0;font-size:15px;font-style:italic}
+  .quote .qa{color:var(--muted);font-size:12px;margin-top:4px;text-align:right}
   .err{padding:30px;text-align:center;color:var(--muted)}
 </style>
 </head>
@@ -99,6 +102,7 @@
     document.title = `Briefing ${d.date_label||d.date||""}`;
     const S=(title,body,cls="")=>`<section class="${cls}"><h2>${esc(title)}</h2>${body}</section>`;
     let html="";
+    if(d.quote&&d.quote.text) html+=`<section class="full quote"><blockquote>« ${esc(d.quote.text)} »</blockquote><div class="qa">— ${esc(d.quote.author||"")}${d.quote.work?`, <i>${esc(d.quote.work)}</i>`:""}</div></section>`;
     html+=S("📊 Marchés",rowsSimple(d.markets));
     html+=S("🔮 Futures",futures(d.futures));
     html+=S("📈 Actions",stocks(d.stocks)+(d.stocks_footnote?`<div class="note">${esc(d.stocks_footnote)}</div>`:""),"full");
