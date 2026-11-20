@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Briefing</title>
+<style>
+  :root{
+    --bg:#f6f5f2; --card:#ffffff; --ink:#1d1d1b; --muted:#6b6a66; --line:#e6e4de;
+    --up:#11804a; --down:#c62f2f; --flat:#7a7a7a; --accent:#2f5bd3; --warn:#b26b00;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141414; --card:#1e1e1e; --ink:#ecebe7; --muted:#9a9893; --line:#2e2e2c;
+      --up:#3fbf7f; --down:#ef6a6a; --flat:#9a9a9a; --accent:#7ea2ff; --warn:#e0a040; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%}
+  header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+    padding:10px 14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  header h1{font-size:16px;margin:0;font-weight:650}
+  header .meta{color:var(--muted);font-size:12px}
+  header nav{margin-left:auto;display:flex;gap:6px;align-items:center}
+  header select{font:inherit;font-size:12px;background:var(--card);color:var(--ink);
+    border:1px solid var(--line);border-radius:6px;padding:3px 6px}
+  main{max-width:880px;margin:0 auto;padding:12px;display:grid;gap:12px}
+  @media (min-width:760px){ main{grid-template-columns:1fr 1fr} .full{grid-column:1/-1} }
+  section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  section h2{font-size:13px;letter-spacing:.04em;text-transform:uppercase;margin:0 0 6px;color:var(--muted);font-weight:650}
+  table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+  td{padding:4px 2px;border-top:1px solid var(--line);vertical-align:top}
+  tr:first-child td{border-top:0}
+  td.l{color:var(--ink)} td.v{text-align:right;white-space:nowrap} td.c{text-align:right;white-space:nowrap;width:1%;padding-left:10px}
+  td.sub{color:var(--muted);font-size:12px;padding-top:0;border-top:0}
+  .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--flat)}
+  .tick{font-weight:650}
+  .name{color:var(--muted);font-size:12px;margin-left:4px}
+  ul{margin:0;padding-left:18px} li{margin:4px 0}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .src{color:var(--muted);font-size:12px}
+  .warn{color:var(--warn)}
+  .badge{display:inline-block;font-size:11px;padding:0 5px;border-radius:4px;border:1px solid var(--line);color:var(--muted);margin-left:4px}
+  .badge.hot{border-color:var(--warn);color:var(--warn)}
+  .note{color:var(--muted);font-size:12px;margin-top:6px}
+  footer{max-width:880px;margin:0 auto;padding:4px 14px 24px;color:var(--muted);font-size:12px}
+  .err{padding:30px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>☕ Briefing</h1>
+  <span class="meta" id="meta"></span>
+  <nav><select id="archive" aria-label="Archives"></select></nav>
+</header>
+<main id="app"><div class="err full">Chargement…</div></main>
+<footer id="foot"></footer>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const safeUrl = u => /^https?:\/\//i.test(u||"") ? u : null;
+  const dirCls = d => d==="up"?"up":d==="down"?"down":"flat";
+  const dirIco = d => d==="up"?"▲":d==="down"?"▼":"■";
+  const arrow  = d => d==="up"?"↑":d==="down"?"↓":"→";
+  const link = (text,url) => { const u=safeUrl(url); return u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(text)}</a>`:esc(text); };
+  const chg = (c,d) => c ? `<span class="${dirCls(d)}">${dirIco(d)} ${esc(c)}</span>` : "";
+
+  function rowsSimple(list){
+    return `<table>${(list||[]).map(r=>`<tr><td class="l">${esc(r.label)}</td><td class="v">${esc(r.value)}</td><td class="c">${chg(r.change,r.dir)}</td></tr>${r.note?`<tr><td class="sub" colspan="3">↳ ${esc(r.note)}</td></tr>`:""}`).join("")}</table>`;
+  }
+  function futures(list){
+    return `<table>${(list||[]).map(r=>`<tr><td class="l tick">${esc(r.symbol)}</td><td class="v">${esc(r.price)}</td><td class="c">${chg(r.change,r.dir)}</td></tr><tr><td class="sub" colspan="3">nuit ${esc(r.range||"n/d")}</td></tr>`).join("")}</table>`;
+  }
+  function stocks(list){
+    return `<table>${(list||[]).map(r=>{
+      const notes=(r.notes||[]).map(n=>`<tr><td class="sub" colspan="3">↳ ${link(n.text,n.url)}</td></tr>`).join("");
+      return `<tr><td class="l"><span class="tick">${esc(r.ticker)}</span><span class="name">${esc(r.name||"")}</span></td><td class="v">${esc(r.price)}</td><td class="c">${chg(r.change,r.dir)}</td></tr>${notes}`;
+    }).join("")}</table>`;
+  }
+  function bullets(items){
+    if(!items||!items.length) return `<ul><li class="src">RAS</li></ul>`;
+    return `<ul>${items.map(i=>`<li>${link(i.text,i.url)}${i.source?` <span class="src">— ${esc(i.source)}</span>`:""}${(i.sub||[]).length?`<ul>${i.sub.map(s=>`<li>${link(s.text,s.url)}</li>`).join("")}</ul>`:""}</li>`).join("")}</ul>`;
+  }
+  function trading(t){
+    t=t||{};
+    const ev=(t.events||[]).map(e=>`<tr><td class="l" style="white-space:nowrap;width:1%">${esc(e.time)}</td><td class="l">${esc(e.name)}${e.stars?` <span class="badge">${"★".repeat(e.stars)}</span>`:""}${e.in_session?` <span class="badge hot">⚠ séance</span>`:""}${e.detail?`<div class="src">${esc(e.detail)}</div>`:""}</td></tr>`).join("");
+    const cd=(t.countdowns||[]).map(c=>`<tr><td class="l">${esc(c.label)}</td><td class="v">${esc(c.date)}</td><td class="c">${c.days!=null?`J−${esc(c.days)}`:""}</td></tr>`).join("");
+    const or=(t.orientation||[]).map(o=>`<tr><td class="l tick">${esc(o.symbol)}</td><td class="v">ST <span class="${dirCls(o.supertrend)}">${arrow(o.supertrend)}</span> <span class="src">${esc(o.level||"")}</span></td><td class="c">flux <span class="${dirCls(o.flux)}">${arrow(o.flux)}</span></td></tr>`).join("");
+    return `${t.events_title?`<div class="src">${esc(t.events_title)}</div>`:""}<table>${ev||`<tr><td class="src">Aucune annonce</td></tr>`}</table>
+      <h2 style="margin-top:10px">Comptes à rebours</h2><table>${cd}</table>
+      <h2 style="margin-top:10px">Orientation H1</h2><table>${or||`<tr><td class="src">n/d</td></tr>`}</table>`;
+  }
+
+  function render(d){
+    $("#meta").textContent = `${d.date_label||d.date||""}${d.generated_at?` · ${d.generated_at}`:""}`;
+    document.title = `Briefing ${d.date_label||d.date||""}`;
+    const S=(title,body,cls="")=>`<section class="${cls}"><h2>${esc(title)}</h2>${body}</section>`;
+    let html="";
+    html+=S("📊 Marchés",rowsSimple(d.markets));
+    html+=S("🔮 Futures",futures(d.futures));
+    html+=S("📈 Actions",stocks(d.stocks)+(d.stocks_footnote?`<div class="note">${esc(d.stocks_footnote)}</div>`:""),"full");
+    html+=S("⏱ Trading",trading(d.trading),"full");
+    (d.sections||[]).forEach(s=>{ html+=S(`${s.icon||""} ${s.title}`,bullets(s.items),s.full?"full":""); });
+    if((d.warnings||[]).length) html+=S("⚠️ Avertissements",`<ul>${d.warnings.map(w=>`<li class="warn">${esc(w)}</li>`).join("")}</ul>`,"full");
+    $("#app").innerHTML=html;
+    $("#foot").innerHTML = (d.sources||[]).length ? "Sources : "+d.sources.map(s=>typeof s==="string"?esc(s):link(s.name,s.url)).join(" · ") : "";
+  }
+
+  async function load(file){
+    try{
+      const r=await fetch(file+"?t="+Date.now(),{cache:"no-store"});
+      if(!r.ok) throw new Error(r.status);
+      render(await r.json());
+    }catch(e){ $("#app").innerHTML=`<div class="err full">Briefing indisponible (${esc(e.message)}).</div>`; }
+  }
+
+  async function init(){
+    const q=new URLSearchParams(location.search).get("d");
+    let list=[];
+    try{ const r=await fetch("archive/index.json?t="+Date.now(),{cache:"no-store"}); if(r.ok) list=await r.json(); }catch(e){}
+    const sel=$("#archive");
+    sel.innerHTML=`<option value="">Aujourd'hui</option>`+list.slice().reverse().map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("");
+    if(q && /^\d{4}-\d{2}-\d{2}$/.test(q)){ sel.value=q; load(`archive/${q}.json`); } else load("latest.json");
+    sel.onchange=()=>{ const v=sel.value; history.replaceState(null,"",v?`?d=${v}`:location.pathname); load(v?`archive/${v}.json`:"latest.json"); };
+  }
+  init();
+})();
+</script>
+</body>
+</html>
