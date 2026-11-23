@@ -1,80 +1,81 @@
 {
+  "date": "2026-11-23",
+  "date_label": "lun. 23/11/2026",
+  "generated_at": "généré à 6h45",
   "quote": {
-    "text": "Les cons, ça ose tout. C'est même à ça qu'on les reconnaît.",
-    "author": "Michel Audiard",
-    "work": "Les Tontons flingueurs (1963)"
+    "text": "L'Anglais tond toujours son gazon très court, ce qui permet à son humour de voler au ras des pâquerettes.",
+    "author": "Pierre Desproges",
+    "work": ""
   },
-  "date": "2026-11-20",
-  "date_label": "ven. 20/11/2026",
-  "generated_at": "généré à 11h15 (test)",
   "markets": [
     {
       "label": "OAT 10 ans",
-      "value": "4,92 %",
-      "change": "−2 pb",
-      "dir": "down"
+      "value": "4,87 %",
+      "change": "−6 pb",
+      "dir": "down",
+      "note": "clôture vendredi"
     },
     {
       "label": "Bund 10 ans",
-      "value": "3,32 %",
-      "change": "−9 pb",
+      "value": "3,29 %",
+      "change": "−11 pb",
       "dir": "down"
     },
     {
       "label": "Écart OAT-Bund",
-      "value": "160 pb",
+      "value": "158 pb",
       "change": "",
       "dir": "flat"
     },
     {
       "label": "US 10 ans",
-      "value": "4,98 %",
-      "change": "−6 pb",
+      "value": "4,95 %",
+      "change": "−10 pb",
       "dir": "down"
     },
     {
       "label": "VIX",
-      "value": "28,44",
-      "change": "+15,8 %",
+      "value": "35,90",
+      "change": "+26,3 %",
       "dir": "up",
-      "note": "ce matin vers 28,9"
+      "note": "plus haut vendredi 40,03"
     },
     {
       "label": "EUR/USD",
-      "value": "1,0995",
-      "change": "+0,18 %",
+      "value": "1,0983",
+      "change": "+0,16 %",
       "dir": "up"
     }
   ],
   "futures": [
     {
       "symbol": "NQ",
-      "price": "26 187",
-      "change": "−1,55 %",
-      "dir": "down",
-      "range": "n/d"
+      "price": "25 840",
+      "change": "+2,84 %",
+      "dir": "up",
+      "range": "25 427–25 945"
     },
     {
       "symbol": "ES",
-      "price": "7 153",
-      "change": "−0,61 %",
-      "dir": "down",
-      "range": "n/d"
+      "price": "7 084",
+      "change": "+2,15 %",
+      "dir": "up",
+      "range": "6 992–7 104"
     },
     {
       "symbol": "YM",
-      "price": "49 132",
-      "change": "−0,10 %",
-      "dir": "down",
-      "range": "n/d"
+      "price": "48 950",
+      "change": "+1,52 %",
+      "dir": "up",
+      "range": "48 433–49 064"
     }
   ],
   "stocks": [
     {
       "ticker": "GLE",
       "name": "Société Générale",
-      "price": "62,02 €",
-      "change": "−3,26 %",
+      "price": "61,74 €",
+      "change": "−3,70 %",
       "dir": "down"
     },
     {
@@ -87,141 +88,134 @@
     {
       "ticker": "CS",
       "name": "AXA",
-      "price": "44,97 €",
-      "change": "−0,93 %",
+      "price": "45,14 €",
+      "change": "−0,55 %",
       "dir": "down"
     },
     {
       "ticker": "TTE",
       "name": "TotalEnergies",
-      "price": "78,43 €",
-      "change": "−0,92 %",
-      "dir": "down",
-      "notes": [
-        {
-          "text": "EnQuest cède ses actifs en mer du Nord à NEO NEXT+ (adossé à TotalEnergies et Repsol) pour 960 M$"
-        }
-      ]
+      "price": "78,19 €",
+      "change": "−1,23 %",
+      "dir": "down"
     },
     {
       "ticker": "ETL",
       "name": "Eutelsat",
-      "price": "1,585 €",
-      "change": "−5,65 %",
+      "price": "1,475 €",
+      "change": "−12,23 %",
       "dir": "down",
       "notes": [
         {
-          "text": "Émission obligataire de 600 M€ à échéance 2032 et rachat des obligations 2028"
+          "text": "Forte baisse vendredi, aucune news de moins de 36 h identifiée"
         }
       ]
     },
     {
       "ticker": "SEL",
       "name": "ETF Amundi Select Div. 30",
-      "price": "24,09 €",
-      "change": "−1,33 %",
+      "price": "23,96 €",
+      "change": "−1,86 %",
       "dir": "down"
     },
     {
       "ticker": "SCR",
       "name": "SCOR",
-      "price": "34,64 €",
-      "change": "−0,35 %",
-      "dir": "down"
+      "price": "35,04 €",
+      "change": "+0,81 %",
+      "dir": "up"
     },
     {
       "ticker": "ENGI",
       "name": "Engie",
-      "price": "24,13 €",
-      "change": "−0,90 %",
+      "price": "24,26 €",
+      "change": "−0,37 %",
       "dir": "down"
     },
     {
       "ticker": "BNP",
       "name": "BNP Paribas",
-      "price": "89,73 €",
-      "change": "−2,52 %",
-      "dir": "down",
-      "notes": [
-        {
-          "text": "BNL (Italie) : fermeture de 20 % des agences d'ici 2030"
-        }
-      ]
+      "price": "89,55 €",
+      "change": "−2,72 %",
+      "dir": "down"
     },
     {
       "ticker": "ALHPI",
       "name": "Hopium",
-      "price": "0,0026 €",
-      "change": "0,0 %",
-      "dir": "flat",
+      "price": "0,0025 €",
+      "change": "−3,85 %",
+      "dir": "down",
       "notes": [
         {
-          "text": "Regroupement 100 pour 1 à partir du 30/11 ; droits de conversion suspendus du 20/11 au 24/12"
+          "text": "Rappel : regroupement 100 pour 1 à partir du 30/11 (annoncé la semaine dernière)"
         }
       ]
     }
   ],
-  "stocks_footnote": "Dividendes/AG vérifiés le lundi.",
+  "stocks_footnote": "Cours = clôtures de vendredi 20/11. Dividendes/AG : seul TotalEnergies vérifié (prochain détachement le 31/12, hors fenêtre de 30 jours) ; autres titres non vérifiés ce lundi.",
   "trading": {
     "events_title": "Aucune 3★ aujourd'hui — 2★ :",
     "events": [
       {
-        "time": "14h25",
-        "name": "Discours Waller (Fed)",
-        "stars": 2
+        "time": "14h30",
+        "name": "Indice d'activité nationale (Fed de Chicago)",
+        "detail": "précédent 0,07",
+        "stars": 2,
+        "in_session": false
       },
       {
-        "time": "16h00",
-        "name": "Confiance Michigan finale",
-        "detail": "consensus 51,0 / précédent 51,0",
+        "time": "15h45",
+        "name": "PMI flash S&P Global (manufacturier / services)",
+        "detail": "consensus 54,5 / 55,6",
         "stars": 2,
         "in_session": true
       },
       {
-        "time": "18h15",
-        "name": "Discours Cook (Fed)",
-        "stars": 2
+        "time": "19h00",
+        "name": "Adjudication Treasury 2 ans",
+        "stars": 2,
+        "in_session": false
       }
     ],
     "countdowns": [
       {
         "label": "Rollover ES/NQ/YM",
         "date": "jeu. 10/12",
-        "days": 20
+        "days": 17
       },
       {
         "label": "NFP",
         "date": "ven. 04/12 14h30",
-        "days": 14
+        "days": 11
       },
       {
         "label": "CPI",
         "date": "jeu. 10/12 14h30",
-        "days": 20
+        "days": 17
       },
       {
         "label": "FOMC",
         "date": "mer. 09/12 20h00",
-        "days": 19
+        "days": 16
       }
     ],
     "orientation": [
       {
         "symbol": "NQ",
         "supertrend": "down",
-        "level": "26 782",
+        "level": "26 014",
         "flux": "down"
       },
       {
         "symbol": "ES",
         "supertrend": "down",
-        "level": "7 249",
+        "level": "7 109",
         "flux": "down"
       },
       {
         "symbol": "YM",
         "supertrend": "down",
-        "level": "49 559",
+        "level": "49 239",
         "flux": "down"
       }
     ]
@@ -233,13 +227,18 @@
       "title": "Éco US/FR",
       "items": [
         {
-          "text": "Wall Street a chuté jeudi : S&P 500 −2,0 % (7 176), Nasdaq −2,3 % (plus bas depuis mi-avril), Dow −2,2 % (49 097)."
+          "text": "Wall Street a chuté vendredi : S&P 500 −3,7 % (6 910), Nasdaq 100 −5,6 % (25 029), Dow Jones environ −1,9 % (48 188) ; S&P 500 et Dow entrent en correction.",
+          "url": "https://www.boursorama.com/bourse/actualites/wall-street-cloture-en-forte-baisse-sous-l-effet-d-une-vague-de-ventes-dans-le-secteur-de-l-ia-le-s-p-500-et-le-dow-jones-entrent-en-phase-de-correction-74ab49e09fe8ec177ecbb89aa5561993",
+          "source": "Boursorama / Reuters"
         },
         {
-          "text": "Anthropic a clôturé son 1er jour de cotation à 97,17 $ (+17 % vs 83 $), puis environ −4 % après-Bourse ; Nvidia −3,3 %, AMD −7,7 %."
+          "text": "Ventes massives sur l'IA : Nvidia −14 % (125,53 $) malgré de bons résultats, Anthropic −8,5 % (88,91 $, après son introduction à 83 $) ; CAC 40 −1,9 % à 7 928. Futures américains en rebond ce matin (Nasdaq 100 ≈ +3 %), Kospi ≈ −5 %.",
+          "url": "https://www.marketscreener.com/news/us-futures-bounce-as-asia-scrambles-to-shore-up-stocks-after-ai-driven-rout-ce785ed3d088f124",
+          "source": "MarketScreener / Reuters"
         },
         {
-          "text": "Fed : hausse de 25 pb quasi entièrement anticipée le 9/12 ; CAC 40 −0,81 % à 8 081 jeudi."
+          "text": "Fed : Lisa Cook juge le taux directeur insuffisant face à l'inflation ; le marché (CME FedWatch) anticipe une hausse de 25 pb en décembre. Résultats Dell mardi.",
+          "source": "Reuters via Boursorama"
         }
       ]
     },
@@ -249,13 +248,19 @@
       "title": "Géopolitique",
       "items": [
         {
-          "text": "Ukraine : Zelensky a réuni une quarantaine d'alliés et les émissaires US Witkoff et Kushner à Berlin jeudi ; Poutine exclut des négociations immédiates."
+          "text": "Ukraine : Zelensky demande à Washington d'autoriser la livraison de missiles Patriot déjà payés par les partenaires ; il chiffre à ≈ 2 700 drones, 1 460 bombes guidées et 165 missiles russes sur la semaine (chiffres ukrainiens). Frappe à Dymer (région de Kyiv) : au moins 2 morts.",
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles",
+          "source": "Al Jazeera"
         },
         {
-          "text": "Iran/pétrole : le Brent a clôturé à 91,98 $ jeudi sur un risque accru de frappes US."
+          "text": "Ormuz : deux pétroliers auraient été touchés samedi au large de Khasab (UKMTO, non vérifié) ; l'armée iranienne évoque un pétrolier ayant heurté une mine. Flux de brut ≈ 50 % du niveau d'avant-guerre (Kpler, préliminaire).",
+          "url": "https://wp.optionbeast.com/2026/11/22/three-tanker-hits-near-hormuz-and-brent-is-still-sliding/",
+          "source": "Option Beast"
         },
         {
-          "text": "Ormuz : les médias d'État iraniens font état de deux pétroliers touchés par des mines, non confirmé par Reuters."
+          "text": "Pétrole : Brent à 92,57 $ vendredi (+0,6 % sur la journée, −3,4 % sur la semaine, 3e baisse hebdomadaire) ; réunion OPEP+ le 29/11.",
+          "url": "https://wp.optionbeast.com/2026/11/22/three-tanker-hits-near-hormuz-and-brent-is-still-sliding/",
+          "source": "Option Beast"
         }
       ]
     },
@@ -265,13 +270,17 @@
       "title": "Politique FR",
       "items": [
         {
-          "text": "PLFSS 2027 : adopté au Sénat (201 voix contre 124, le 18/11) ; commission mixte paritaire le 26/11."
+          "text": "PLFSS 2027 : délai d'examen jusqu'au 26/11 à minuit ; PLF 2027 : examen au Sénat depuis le 20/11, vote prévu le 9/12, délai au 17/12 (après rejet de la partie recettes à l'Assemblée le 4/11).",
+          "url": "https://lcp.fr/dossiers/budget-2027-440523",
+          "source": "LCP"
         },
         {
-          "text": "PLF 2027 : le PS indique qu'il voterait probablement une motion de censure si elle est déposée."
+          "text": "Présidentielle 2027 : François Ruffin se retire de la course sans soutenir de candidat de gauche (21/11).",
+          "source": "Orange / LCP"
         },
         {
-          "text": "Présidentielle 2027 : conférence de presse « exceptionnelle » de Dominique de Villepin ce matin à 11h."
+          "text": "Présidentielle 2027 : la CFDT (Marylise Léon) demande de déplacer la date du second tour pour éviter le 2 mai (21/11).",
+          "source": "Orange / LCP"
         }
       ]
     },
@@ -281,22 +290,19 @@
       "title": "MMA",
       "items": [
         {
-          "text": "Manon Fiorot accepte 3 mois de suspension (jusqu'au 19/01/2027) après un contrôle positif jugé contamination accidentelle (UFC, 19/11)."
-        },
-        {
           "text": "Prochains combats :",
           "sub": [
             {
-              "text": "Gane : non programmé"
+              "text": "Gane : pas de date confirmée"
             },
             {
-              "text": "BSD : 06/02/2027 contre Quillan Salkilld (UFC Sydney)"
+              "text": "BSD : 06/02/2027 contre Quillan Salkilld (UFC Sydney, en main event)"
             },
             {
-              "text": "Lehto Duclos : 05/12/2026 contre Modestino Rodrigues (Riyad)"
+              "text": "Lehto Duclos : 05/12/2026 contre Modestino Rodrigues (UFC Arabie saoudite)"
             },
             {
-              "text": "Fiorot : pas avant le 19/01/2027"
+              "text": "Fiorot : pas avant le 19/01/2027 (suspension)"
             }
           ]
         }
@@ -308,27 +314,48 @@
       "title": "Science",
       "items": [
         {
-          "text": "IA : OpenAI dit avoir utilisé ses modèles pour concevoir ses puces (surface réduite d'environ 15 %)."
-        },
-        {
-          "text": "Spatial : Voyager 1 devient le premier objet humain à atteindre un jour-lumière de la Terre."
-        },
-        {
-          "text": "Spatial : l'enquête sur l'échec du lanceur Vulcan de ULA pointe une alimentation en carburant insuffisante."
+          "text": "Spatial/IA : Goldman Sachs et Apollo placent 32 Md$ d'obligations SpaceX pour financer des achats de puces d'IA (21/11).",
+          "url": "https://bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+          "source": "Bloomberg"
         }
       ]
     }
   ],
   "warnings": [
-    "Page de démonstration construite à partir du test de 11h15 ; les niveaux de Supertrend viennent du test de 10h35."
+    "Dow Jones indisponible sur TradingView : valeur reprise de Boursorama/Reuters (sources parfois divergentes de ±0,1 pt).",
+    "Plusieurs pages (Bloomberg, franceinfo, Critical Threats, straits.live) inaccessibles : géopolitique et politique s'appuient sur peu de sources.",
+    "MMA : aucun fait nouveau vérifié sur le week-end ; Science : un seul fait fiable de moins de 48 h trouvé.",
+    "Taux, VIX et actions = clôtures de vendredi ; futures = niveaux de ce matin."
   ],
   "sources": [
     "TradingView",
-    "Trading Economics",
-    "AP",
-    "Zonebourse",
-    "Public Sénat",
-    "UFC.com",
-    "Spaceflight Now"
+    {
+      "name": "Boursorama / Reuters",
+      "url": "https://www.boursorama.com"
+    },
+    {
+      "name": "MarketScreener",
+      "url": "https://www.marketscreener.com"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com"
+    },
+    {
+      "name": "LCP",
+      "url": "https://lcp.fr"
+    },
+    {
+      "name": "Option Beast",
+      "url": "https://wp.optionbeast.com"
+    },
+    {
+      "name": "TotalEnergies",
+      "url": "https://totalenergies.com"
+    },
+    {
+      "name": "citation-celebre.com",
+      "url": "https://www.citation-celebre.com"
+    }
   ]
 }

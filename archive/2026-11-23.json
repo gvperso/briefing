@@ -1,0 +1,361 @@
+{
+  "date": "2026-11-23",
+  "date_label": "lun. 23/11/2026",
+  "generated_at": "généré à 6h45",
+  "quote": {
+    "text": "L'Anglais tond toujours son gazon très court, ce qui permet à son humour de voler au ras des pâquerettes.",
+    "author": "Pierre Desproges",
+    "work": ""
+  },
+  "markets": [
+    {
+      "label": "OAT 10 ans",
+      "value": "4,87 %",
+      "change": "−6 pb",
+      "dir": "down",
+      "note": "clôture vendredi"
+    },
+    {
+      "label": "Bund 10 ans",
+      "value": "3,29 %",
+      "change": "−11 pb",
+      "dir": "down"
+    },
+    {
+      "label": "Écart OAT-Bund",
+      "value": "158 pb",
+      "change": "",
+      "dir": "flat"
+    },
+    {
+      "label": "US 10 ans",
+      "value": "4,95 %",
+      "change": "−10 pb",
+      "dir": "down"
+    },
+    {
+      "label": "VIX",
+      "value": "35,90",
+      "change": "+26,3 %",
+      "dir": "up",
+      "note": "plus haut vendredi 40,03"
+    },
+    {
+      "label": "EUR/USD",
+      "value": "1,0983",
+      "change": "+0,16 %",
+      "dir": "up"
+    }
+  ],
+  "futures": [
+    {
+      "symbol": "NQ",
+      "price": "25 840",
+      "change": "+2,84 %",
+      "dir": "up",
+      "range": "25 427–25 945"
+    },
+    {
+      "symbol": "ES",
+      "price": "7 084",
+      "change": "+2,15 %",
+      "dir": "up",
+      "range": "6 992–7 104"
+    },
+    {
+      "symbol": "YM",
+      "price": "48 950",
+      "change": "+1,52 %",
+      "dir": "up",
+      "range": "48 433–49 064"
+    }
+  ],
+  "stocks": [
+    {
+      "ticker": "GLE",
+      "name": "Société Générale",
+      "price": "61,74 €",
+      "change": "−3,70 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "ORA",
+      "name": "Orange",
+      "price": "15,12 €",
+      "change": "+0,53 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "CS",
+      "name": "AXA",
+      "price": "45,14 €",
+      "change": "−0,55 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "TTE",
+      "name": "TotalEnergies",
+      "price": "78,19 €",
+      "change": "−1,23 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "ETL",
+      "name": "Eutelsat",
+      "price": "1,475 €",
+      "change": "−12,23 %",
+      "dir": "down",
+      "notes": [
+        {
+          "text": "Forte baisse vendredi, aucune news de moins de 36 h identifiée"
+        }
+      ]
+    },
+    {
+      "ticker": "SEL",
+      "name": "ETF Amundi Select Div. 30",
+      "price": "23,96 €",
+      "change": "−1,86 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "SCR",
+      "name": "SCOR",
+      "price": "35,04 €",
+      "change": "+0,81 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "ENGI",
+      "name": "Engie",
+      "price": "24,26 €",
+      "change": "−0,37 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "BNP",
+      "name": "BNP Paribas",
+      "price": "89,55 €",
+      "change": "−2,72 %",
+      "dir": "down"
+    },
+    {
+      "ticker": "ALHPI",
+      "name": "Hopium",
+      "price": "0,0025 €",
+      "change": "−3,85 %",
+      "dir": "down",
+      "notes": [
+        {
+          "text": "Rappel : regroupement 100 pour 1 à partir du 30/11 (annoncé la semaine dernière)"
+        }
+      ]
+    }
+  ],
+  "stocks_footnote": "Cours = clôtures de vendredi 20/11. Dividendes/AG : seul TotalEnergies vérifié (prochain détachement le 31/12, hors fenêtre de 30 jours) ; autres titres non vérifiés ce lundi.",
+  "trading": {
+    "events_title": "Aucune 3★ aujourd'hui — 2★ :",
+    "events": [
+      {
+        "time": "14h30",
+        "name": "Indice d'activité nationale (Fed de Chicago)",
+        "detail": "précédent 0,07",
+        "stars": 2,
+        "in_session": false
+      },
+      {
+        "time": "15h45",
+        "name": "PMI flash S&P Global (manufacturier / services)",
+        "detail": "consensus 54,5 / 55,6",
+        "stars": 2,
+        "in_session": true
+      },
+      {
+        "time": "19h00",
+        "name": "Adjudication Treasury 2 ans",
+        "stars": 2,
+        "in_session": false
+      }
+    ],
+    "countdowns": [
+      {
+        "label": "Rollover ES/NQ/YM",
+        "date": "jeu. 10/12",
+        "days": 17
+      },
+      {
+        "label": "NFP",
+        "date": "ven. 04/12 14h30",
+        "days": 11
+      },
+      {
+        "label": "CPI",
+        "date": "jeu. 10/12 14h30",
+        "days": 17
+      },
+      {
+        "label": "FOMC",
+        "date": "mer. 09/12 20h00",
+        "days": 16
+      }
+    ],
+    "orientation": [
+      {
+        "symbol": "NQ",
+        "supertrend": "down",
+        "level": "26 014",
+        "flux": "down"
+      },
+      {
+        "symbol": "ES",
+        "supertrend": "down",
+        "level": "7 109",
+        "flux": "down"
+      },
+      {
+        "symbol": "YM",
+        "supertrend": "down",
+        "level": "49 239",
+        "flux": "down"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "eco",
+      "icon": "📰",
+      "title": "Éco US/FR",
+      "items": [
+        {
+          "text": "Wall Street a chuté vendredi : S&P 500 −3,7 % (6 910), Nasdaq 100 −5,6 % (25 029), Dow Jones environ −1,9 % (48 188) ; S&P 500 et Dow entrent en correction.",
+          "url": "https://www.boursorama.com/bourse/actualites/wall-street-cloture-en-forte-baisse-sous-l-effet-d-une-vague-de-ventes-dans-le-secteur-de-l-ia-le-s-p-500-et-le-dow-jones-entrent-en-phase-de-correction-74ab49e09fe8ec177ecbb89aa5561993",
+          "source": "Boursorama / Reuters"
+        },
+        {
+          "text": "Ventes massives sur l'IA : Nvidia −14 % (125,53 $) malgré de bons résultats, Anthropic −8,5 % (88,91 $, après son introduction à 83 $) ; CAC 40 −1,9 % à 7 928. Futures américains en rebond ce matin (Nasdaq 100 ≈ +3 %), Kospi ≈ −5 %.",
+          "url": "https://www.marketscreener.com/news/us-futures-bounce-as-asia-scrambles-to-shore-up-stocks-after-ai-driven-rout-ce785ed3d088f124",
+          "source": "MarketScreener / Reuters"
+        },
+        {
+          "text": "Fed : Lisa Cook juge le taux directeur insuffisant face à l'inflation ; le marché (CME FedWatch) anticipe une hausse de 25 pb en décembre. Résultats Dell mardi.",
+          "source": "Reuters via Boursorama"
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "icon": "🌍",
+      "title": "Géopolitique",
+      "items": [
+        {
+          "text": "Ukraine : Zelensky demande à Washington d'autoriser la livraison de missiles Patriot déjà payés par les partenaires ; il chiffre à ≈ 2 700 drones, 1 460 bombes guidées et 165 missiles russes sur la semaine (chiffres ukrainiens). Frappe à Dymer (région de Kyiv) : au moins 2 morts.",
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles",
+          "source": "Al Jazeera"
+        },
+        {
+          "text": "Ormuz : deux pétroliers auraient été touchés samedi au large de Khasab (UKMTO, non vérifié) ; l'armée iranienne évoque un pétrolier ayant heurté une mine. Flux de brut ≈ 50 % du niveau d'avant-guerre (Kpler, préliminaire).",
+          "url": "https://wp.optionbeast.com/2026/11/22/three-tanker-hits-near-hormuz-and-brent-is-still-sliding/",
+          "source": "Option Beast"
+        },
+        {
+          "text": "Pétrole : Brent à 92,57 $ vendredi (+0,6 % sur la journée, −3,4 % sur la semaine, 3e baisse hebdomadaire) ; réunion OPEP+ le 29/11.",
+          "url": "https://wp.optionbeast.com/2026/11/22/three-tanker-hits-near-hormuz-and-brent-is-still-sliding/",
+          "source": "Option Beast"
+        }
+      ]
+    },
+    {
+      "id": "pol",
+      "icon": "🇫🇷",
+      "title": "Politique FR",
+      "items": [
+        {
+          "text": "PLFSS 2027 : délai d'examen jusqu'au 26/11 à minuit ; PLF 2027 : examen au Sénat depuis le 20/11, vote prévu le 9/12, délai au 17/12 (après rejet de la partie recettes à l'Assemblée le 4/11).",
+          "url": "https://lcp.fr/dossiers/budget-2027-440523",
+          "source": "LCP"
+        },
+        {
+          "text": "Présidentielle 2027 : François Ruffin se retire de la course sans soutenir de candidat de gauche (21/11).",
+          "source": "Orange / LCP"
+        },
+        {
+          "text": "Présidentielle 2027 : la CFDT (Marylise Léon) demande de déplacer la date du second tour pour éviter le 2 mai (21/11).",
+          "source": "Orange / LCP"
+        }
+      ]
+    },
+    {
+      "id": "mma",
+      "icon": "🥊",
+      "title": "MMA",
+      "items": [
+        {
+          "text": "Prochains combats :",
+          "sub": [
+            {
+              "text": "Gane : pas de date confirmée"
+            },
+            {
+              "text": "BSD : 06/02/2027 contre Quillan Salkilld (UFC Sydney, en main event)"
+            },
+            {
+              "text": "Lehto Duclos : 05/12/2026 contre Modestino Rodrigues (UFC Arabie saoudite)"
+            },
+            {
+              "text": "Fiorot : pas avant le 19/01/2027 (suspension)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci",
+      "icon": "🔬",
+      "title": "Science",
+      "items": [
+        {
+          "text": "Spatial/IA : Goldman Sachs et Apollo placent 32 Md$ d'obligations SpaceX pour financer des achats de puces d'IA (21/11).",
+          "url": "https://bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+          "source": "Bloomberg"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Dow Jones indisponible sur TradingView : valeur reprise de Boursorama/Reuters (sources parfois divergentes de ±0,1 pt).",
+    "Plusieurs pages (Bloomberg, franceinfo, Critical Threats, straits.live) inaccessibles : géopolitique et politique s'appuient sur peu de sources.",
+    "MMA : aucun fait nouveau vérifié sur le week-end ; Science : un seul fait fiable de moins de 48 h trouvé.",
+    "Taux, VIX et actions = clôtures de vendredi ; futures = niveaux de ce matin."
+  ],
+  "sources": [
+    "TradingView",
+    {
+      "name": "Boursorama / Reuters",
+      "url": "https://www.boursorama.com"
+    },
+    {
+      "name": "MarketScreener",
+      "url": "https://www.marketscreener.com"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com"
+    },
+    {
+      "name": "LCP",
+      "url": "https://lcp.fr"
+    },
+    {
+      "name": "Option Beast",
+      "url": "https://wp.optionbeast.com"
+    },
+    {
+      "name": "TotalEnergies",
+      "url": "https://totalenergies.com"
+    },
+    {
+      "name": "citation-celebre.com",
+      "url": "https://www.citation-celebre.com"
+    }
+  ]
+}
