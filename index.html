@@ -40,7 +40,7 @@
   ul{margin:0;padding-left:18px} li{margin:4px 0}
   a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
   .src{color:var(--muted);font-size:12px}
-  .warn{color:var(--warn)}
+  .warn,td.l.warn{color:var(--warn)}
   .badge{display:inline-block;font-size:11px;padding:0 5px;border-radius:4px;border:1px solid var(--line);color:var(--muted);margin-left:4px}
   .badge.hot{border-color:var(--warn);color:var(--warn)}
   .note{color:var(--muted);font-size:12px;margin-top:6px}
@@ -90,7 +90,7 @@
   function trading(t){
     t=t||{};
     const ev=(t.events||[]).map(e=>`<tr><td class="l" style="white-space:nowrap;width:1%">${esc(e.time)}</td><td class="l">${esc(e.name)}${e.stars?` <span class="badge">${"★".repeat(e.stars)}</span>`:""}${e.in_session?` <span class="badge hot">⚠ séance</span>`:""}${e.detail?`<div class="src">${esc(e.detail)}</div>`:""}</td></tr>`).join("");
-    const cd=(t.countdowns||[]).map(c=>`<tr><td class="l">${esc(c.label)}</td><td class="v">${esc(c.date)}</td><td class="c">${c.days!=null?`J−${esc(c.days)}`:""}</td></tr>`).join("");
+    const cd=(t.countdowns||[]).map(c=>`<tr><td class="l${c.hot?" warn":""}">${c.hot?"⚠ ":""}${esc(c.label)}</td><td class="v">${esc(c.date)}</td><td class="c">${c.days!=null?(c.days===0?"auj.":`J−${esc(c.days)}`):""}</td></tr>${c.note?`<tr><td class="sub" colspan="3">↳ ${esc(c.note)}</td></tr>`:""}`).join("");
     const or=(t.orientation||[]).map(o=>`<tr><td class="l tick">${esc(o.symbol)}</td><td class="v">ST <span class="${dirCls(o.supertrend)}">${arrow(o.supertrend)}</span> <span class="src">${esc(o.level||"")}</span></td><td class="c">flux <span class="${dirCls(o.flux)}">${arrow(o.flux)}</span></td></tr>`).join("");
     return `${t.events_title?`<div class="src">${esc(t.events_title)}</div>`:""}<table>${ev||`<tr><td class="src">Aucune annonce</td></tr>`}</table>
       <h2 style="margin-top:10px">Comptes à rebours</h2><table>${cd}</table>
