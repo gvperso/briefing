@@ -1,197 +1,199 @@
 {
-  "date": "2026-11-24",
-  "date_label": "mar. 24/11/2026",
-  "generated_at": "généré à 6h25",
+  "date": "2026-11-25",
+  "date_label": "mer. 25/11/2026",
+  "generated_at": "généré à 6h30",
   "quote": {
-    "text": "Le Picon-bière, ça pardonne pas. C'est de ça que mon pauvre papa est mort. Il n'y a rien de plus traître !",
-    "author": "Michel Audiard (dialogues)",
-    "work": "Un singe en hiver (1962)"
+    "text": "Citation du jour indisponible : aucune attribution n'a pu être vérifiée ce matin.",
+    "author": "",
+    "work": ""
   },
   "markets": [
     {
       "label": "OAT 10 ans",
       "value": "4,79 %",
-      "change": "−8,5 pb",
-      "dir": "down"
+      "change": "0 pb",
+      "dir": "flat"
     },
     {
       "label": "Bund 10 ans",
       "value": "3,28 %",
-      "change": "−1,5 pb",
-      "dir": "down"
+      "change": "+0,4 pb",
+      "dir": "up"
     },
     {
       "label": "Écart OAT-Bund",
-      "value": "151 pb",
+      "value": "150 pb",
       "change": "",
       "dir": "flat"
     },
     {
       "label": "US 10 ans",
-      "value": "4,92 %",
-      "change": "−2,2 pb",
+      "value": "4,90 %",
+      "change": "−3,2 pb",
       "dir": "down"
     },
     {
       "label": "VIX",
-      "value": "26,61",
-      "change": "−25,9 %",
+      "value": "26,37",
+      "change": "−0,9 %",
       "dir": "down",
-      "note": "séance de lundi ; plus haut du jour 35,08"
+      "note": "plus haut de séance 32,38"
     },
     {
       "label": "EUR/USD",
-      "value": "1,0910",
-      "change": "+0,07 %",
-      "dir": "up"
+      "value": "1,0945",
+      "change": "−0,18 %",
+      "dir": "down"
     }
   ],
   "futures": [
     {
       "symbol": "NQ",
-      "price": "26 857",
-      "change": "+0,18 %",
-      "dir": "up",
-      "range": "26 684–27 036"
+      "price": "25 939",
+      "change": "−1,28 %",
+      "dir": "down",
+      "range": "25 905–26 351"
     },
     {
       "symbol": "ES",
-      "price": "7 274",
-      "change": "+0,26 %",
-      "dir": "up",
-      "range": "7 240–7 298"
+      "price": "7 160",
+      "change": "−0,80 %",
+      "dir": "down",
+      "range": "7 160–7 224"
     },
     {
       "symbol": "YM",
-      "price": "49 790",
-      "change": "+0,23 %",
-      "dir": "up",
-      "range": "49 581–49 880"
+      "price": "49 820",
+      "change": "−0,48 %",
+      "dir": "down",
+      "range": "49 817–50 060"
     }
   ],
   "stocks": [
     {
       "ticker": "GLE",
       "name": "Société Générale",
-      "price": "64,06 €",
-      "change": "+3,76 %",
-      "dir": "up"
+      "price": "63,20 €",
+      "change": "−1,34 %",
+      "dir": "down"
     },
     {
       "ticker": "ORA",
       "name": "Orange",
-      "price": "14,88 €",
-      "change": "−1,55 %",
-      "dir": "down"
+      "price": "15,29 €",
+      "change": "+2,72 %",
+      "dir": "up"
     },
     {
       "ticker": "CS",
       "name": "AXA",
-      "price": "45,36 €",
-      "change": "+0,49 %",
-      "dir": "up"
+      "price": "45,32 €",
+      "change": "−0,09 %",
+      "dir": "down"
     },
     {
       "ticker": "TTE",
       "name": "TotalEnergies",
-      "price": "77,49 €",
-      "change": "−0,90 %",
-      "dir": "down",
+      "price": "77,68 €",
+      "change": "+0,25 %",
+      "dir": "up",
       "notes": [
         {
-          "text": "Rachète à Continental Resources des participations dans des actifs amont de gaz naturel aux États-Unis (23/11).",
-          "url": "https://www.tradingview.com/news/business_wire:b66341d36c815:0/"
+          "text": "Un tribunal kazakh donne partiellement raison à NCOC (opérateur de Kashagan, dont TotalEnergies est partenaire) dans son recours, rapporte Interfax (24/11).",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4750RH:0/"
         }
       ]
     },
     {
       "ticker": "ETL",
       "name": "Eutelsat",
-      "price": "1,605 €",
-      "change": "+8,85 %",
+      "price": "1,62 €",
+      "change": "+0,90 %",
       "dir": "up",
       "notes": [
         {
-          "text": "Net rebond lundi, aucune news de moins de 36 h identifiée"
+          "text": "Cité dans le point Reuters sur les changements de recommandations à Paris (24/11) ; détail non accessible.",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4751H7:0/"
         }
       ]
     },
     {
       "ticker": "SEL",
       "name": "ETF Amundi Select Div. 30",
-      "price": "24,27 €",
-      "change": "+1,29 %",
-      "dir": "up"
+      "price": "24,10 €",
+      "change": "−0,68 %",
+      "dir": "down"
     },
     {
       "ticker": "SCR",
       "name": "SCOR",
-      "price": "35,50 €",
-      "change": "+1,31 %",
+      "price": "35,66 €",
+      "change": "+0,45 %",
       "dir": "up"
     },
     {
       "ticker": "ENGI",
       "name": "Engie",
-      "price": "24,47 €",
-      "change": "+0,87 %",
+      "price": "24,62 €",
+      "change": "+0,61 %",
       "dir": "up"
     },
     {
       "ticker": "BNP",
       "name": "BNP Paribas",
-      "price": "91,48 €",
-      "change": "+2,16 %",
-      "dir": "up"
+      "price": "90,28 €",
+      "change": "−1,31 %",
+      "dir": "down"
     },
     {
       "ticker": "ALHPI",
       "name": "Hopium",
-      "price": "0,0025 €",
-      "change": "0,00 %",
-      "dir": "flat",
+      "price": "0,0024 €",
+      "change": "−4,00 %",
+      "dir": "down",
       "notes": [
         {
-          "text": "Rappel : regroupement 100 pour 1 annoncé à partir du 30/11 (information de la veille, non revérifiée aujourd'hui)"
+          "text": "Titre toujours coté, sous 0,01 € ; aucune news de moins de 36 h."
         }
       ]
     }
   ],
-  "stocks_footnote": "Cours = clôtures de lundi 23/11. Dividendes/AG vérifiés le lundi.",
+  "stocks_footnote": "Dividendes/AG vérifiés le lundi.",
   "trading": {
-    "events_title": "Aucune 3★ aujourd'hui — 2★ :",
     "events": [
       {
-        "time": "14h15",
-        "name": "ADP emploi hebdomadaire",
-        "detail": "précédent 23 750",
-        "stars": 2,
+        "time": "14h30",
+        "name": "PCE core (oct., m/m)",
+        "detail": "consensus 0,3 % / précédent 0,3 %",
+        "stars": 3,
         "in_session": false
       },
       {
-        "time": "15h00",
-        "name": "Case-Shiller 20 villes (annuel)",
-        "detail": "consensus 2,7 % / précédent 2,7 %",
-        "stars": 2,
+        "time": "14h30",
+        "name": "PIB T3, 2e estimation (t/t annualisé)",
+        "detail": "consensus 3,5 % / précédent 1,5 %",
+        "stars": 3,
         "in_session": false
       },
       {
-        "time": "16h00",
-        "name": "Confiance des consommateurs (Conference Board)",
-        "detail": "consensus 92,5 / précédent 91,7",
-        "stars": 2,
-        "in_session": true
-      },
-      {
-        "time": "17h30",
-        "name": "Adjudication Treasury 52 semaines",
-        "stars": 2,
+        "time": "14h30",
+        "name": "Dépenses des ménages (oct., m/m)",
+        "detail": "consensus 0,4 % / précédent 0,5 %",
+        "stars": 3,
         "in_session": false
       },
       {
-        "time": "19h00",
-        "name": "Adjudication Treasury 5 ans",
-        "stars": 2,
+        "time": "14h30",
+        "name": "Revenus des ménages (oct., m/m)",
+        "detail": "consensus 0,4 % / précédent 0,2 %",
+        "stars": 3,
+        "in_session": false
+      },
+      {
+        "time": "14h30",
+        "name": "Commandes de biens durables (oct., m/m)",
+        "detail": "consensus 0,6 % / précédent 1,8 %",
+        "stars": 3,
         "in_session": false
       }
     ],
@@ -199,41 +201,41 @@
       {
         "label": "Rollover ES/NQ/YM",
         "date": "jeu. 10/12",
-        "days": 16
+        "days": 15
       },
       {
         "label": "NFP",
         "date": "ven. 04/12 14h30",
-        "days": 10
+        "days": 9
       },
       {
         "label": "CPI",
         "date": "jeu. 10/12 14h30",
-        "days": 16
+        "days": 15
       },
       {
         "label": "FOMC",
         "date": "mer. 09/12 20h00",
-        "days": 15
+        "days": 14
       }
     ],
     "orientation": [
       {
         "symbol": "NQ",
-        "supertrend": "up",
-        "level": "26 275",
-        "flux": "up"
+        "supertrend": "down",
+        "level": "26 575",
+        "flux": "down"
       },
       {
         "symbol": "ES",
-        "supertrend": "up",
-        "level": "7 168",
-        "flux": "up"
+        "supertrend": "down",
+        "level": "7 272",
+        "flux": "down"
       },
       {
         "symbol": "YM",
         "supertrend": "up",
-        "level": "49 255",
+        "level": "49 362",
         "flux": "up"
       }
     ]
@@ -245,17 +247,17 @@
       "title": "Éco US/FR",
       "items": [
         {
-          "text": "Wall Street a clôturé en très forte hausse lundi : Dow Jones +3,01 % (49 595), Nasdaq 100 +6,86 % (26 746), Nasdaq Composite +6,51 %, S&P 500 +4,73 % (7 237). Meilleure séance du Nasdaq depuis avril 2025.",
-          "url": "https://www.boursorama.com/bourse/actualites/wall-street-termine-en-forte-hausse-apres-le-retour-de-jensen-huang-chez-nvidia-11b1920cb69b54d55fa3cfc4500c3f05",
-          "source": "Boursorama"
+          "text": "Wall Street mardi : Nasdaq 100 −1,99 % (26 214), S&P 500 −0,50 % (7 201), Dow Jones +0,85 % (50 019). La tech rend une partie des gains de lundi (rebond Nvidia après le retour de Jensen Huang) ; « gueule de bois » de l'IA selon l'AFP.",
+          "url": "https://www.tradingview.com/news/afp:0c0d0b743f872:0/",
+          "source": "AFP"
         },
         {
-          "text": "Moteur : le conseil de Nvidia a réintégré Jensen Huang comme directeur général, moins de deux semaines après sa démission. Nvidia +31,48 % à 165,05 $ (plus de 900 Md$ de capitalisation gagnés), AMD +6,85 %, Micron +19 %, Intel +16 %. VIX au plus bas depuis mi-octobre.",
-          "url": "https://www.boursedirect.fr/fr/actualites/categorie/economie/wall-street-cloture-en-tres-forte-hausse-portee-par-nvidia-afp-db021af88cc93dcfe4f88c1ff208b709610b5fd1",
-          "source": "AFP / Bourse Direct"
+          "text": "Europe : CAC 40 −0,05 % à 8 040 (Sanofi +près de 10 %), Londres −0,13 %, Francfort −1,26 %.",
+          "url": "https://www.tradingview.com/news/afp:78ebfe298ad7a:0/",
+          "source": "AFP"
         },
         {
-          "text": "Agenda : mercredi, PCE d'octobre (cœur +0,3 % attendu) et PIB T3 2e estimation (consensus 3,4 %). Jeudi, Wall Street fermée (Thanksgiving).",
+          "text": "Aujourd'hui 14h30 : PCE core d'octobre, PIB T3 (2e estimation) et biens durables, avant ta séance. Jeudi, Wall Street fermée (Thanksgiving).",
           "source": "TradingView"
         }
       ]
@@ -266,19 +268,9 @@
       "title": "Géopolitique",
       "items": [
         {
-          "text": "Iran/États-Unis : Trump menace de couler les navires qui forceraient le blocus et repousse d'éventuelles frappes à après le 1er janvier ; Netanyahu pousserait à une nouvelle opération, Washington attendrait au moins une semaine (sources anonymes). Blocus au 130e jour selon CENTCOM.",
-          "url": "https://www.tunisienumerique.com/iran-etats-unis-trump-couler-navires-netanyahu-ormuz-libye-23-novembre-2026/",
-          "source": "Tunisie Numérique"
-        },
-        {
-          "text": "Ormuz : la marine iranienne affirme que deux pétroliers ont heurté des mines le 22/11 ; l'UKMTO signale des incidents sans attribution. Le pétrole recule avec les actions mais les attaques liées à la guerre limitent la baisse.",
-          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-23-2026",
-          "source": "Khaleej Times"
-        },
-        {
-          "text": "Libye : le navire russe Merkury a été gravement endommagé à Benghazi le 22/11 (drones navals, origine ukrainienne soupçonnée, non revendiquée officiellement selon cette source).",
-          "url": "https://www.tunisienumerique.com/iran-etats-unis-trump-couler-navires-netanyahu-ormuz-libye-23-novembre-2026/",
-          "source": "Tunisie Numérique"
+          "text": "Pétrole : le Brent a touché mardi un plus bas de trois mois avant de rebondir sur les menaces pesant sur le détroit d'Ormuz, puis a repris de l'avance face aux attaques persistantes au Moyen-Orient (Brent 87,48 $ ce matin, −1,5 %).",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4751AH:0/",
+          "source": "Reuters"
         }
       ]
     },
@@ -286,13 +278,7 @@
       "id": "pol",
       "icon": "🇫🇷",
       "title": "Politique FR",
-      "items": [
-        {
-          "text": "Budget 2027 : l'examen du projet entre dans l'hémicycle par la partie recettes (objectif de déficit 5 % du PIB). Le gouvernement Lecornu n'a pas de majorité ; une motion de rejet est défendue par le PS, et le RN est décisif. Texte rejeté en commission des Finances ; recours au 49.3 ou aux ordonnances possible. (Date exacte de l'article non visible.)",
-          "url": "https://www.lagazettefrance.fr/article/le-budget-entre-dans-l-hemicycle-la-presidentielle-aussi",
-          "source": "La Gazette de France"
-        }
-      ]
+      "items": []
     },
     {
       "id": "mma",
@@ -303,16 +289,16 @@
           "text": "Prochains combats :",
           "sub": [
             {
-              "text": "Gane : non programmé (champion poids lourd après sa victoire sur Hokit à l'UFC 334 le 14/11 ; revanche avec Aspinall évoquée par son coach, non annoncée par l'UFC)"
+              "text": "Gane : prochain combat non trouvé (dernier connu : UFC 334, nuit du 14 au 15/11, contre Josh Hokit selon Flashscore)"
             },
             {
-              "text": "Saint-Denis : n/d (non confirmé)"
+              "text": "Saint-Denis : non programmé (défait par Pimblett le 11/07 ; aucun adversaire annoncé selon une source de juillet)"
             },
             {
-              "text": "Duclos (Lehto) : n/d (non confirmé)"
+              "text": "Duclos : non programmé / non confirmé"
             },
             {
-              "text": "Fiorot : n/d (non confirmé)"
+              "text": "Fiorot : Grasso était annoncée le 12/09 ; prochain combat non trouvé"
             }
           ]
         }
@@ -324,39 +310,29 @@
       "title": "Science",
       "items": [
         {
-          "text": "Tesla : la production des premiers robots humanoïdes Optimus a démarré (annonce du 22/11).",
-          "url": "https://lautomobiliste.fr/22/11/2026/tesla-franchit-un-cap-avec-optimus-la-fabrication-des-premiers-robots-humanoides-est-lancee",
-          "source": "L'Automobiliste"
+          "text": "Consultation citoyenne en ligne (Make.org, du 23/11 au 17/01) lancée par plusieurs organisations culturelles (SACD, Sacem, SNE…) sur l'avenir de la création humaine à l'ère de l'IA.",
+          "url": "https://www.cbnews.fr/digital/consultation-citoyenne-avenir-creation-humaine-ere-ia",
+          "source": "CB News"
         }
       ]
     }
   ],
   "warnings": [
-    "Cours actions, taux et VIX = clôtures de lundi 23/11 (TradingView) ; futures = séance en cours.",
-    "Écart S&P 500 : +4,73 % (TradingView/Boursorama) contre +4,3 % dans la dépêche AFP ; chiffre TradingView retenu.",
-    "Ukraine/Russie : pages franceinfo illisibles (accès refusé), seul le fait de Libye est repris, avec réserve sur la revendication.",
-    "MMA : prochains combats de Saint-Denis, Duclos et Fiorot introuvables dans les sources lisibles (n/d).",
-    "Science : un seul fait de moins de 48 h vérifié.",
-    "Citation : texte relevé sur un site de citations qui n'attribue pas la réplique à un personnage nommé ; attribution au film confirmée par une seule source."
+    "Recherches web très limitées ce matin (pages d'actualité peu accessibles) : Ukraine/Russie, politique FR, science et MMA sans fait vérifié de moins de 24-48 h.",
+    "Citation du jour non vérifiée : aucune attribution confirmée, donc omise.",
+    "Clôture de Wall Street et indices : données TradingView ; détail des articles AFP/Reuters non lisible (titres seulement).",
+    "MMA : informations issues de sources datant de juillet/novembre, à confirmer."
   ],
   "sources": [
     {
       "name": "TradingView",
       "url": "https://www.tradingview.com"
     },
+    "AFP",
+    "Reuters",
     {
-      "name": "Boursorama",
-      "url": "https://www.boursorama.com"
-    },
-    {
-      "name": "Bourse Direct / AFP",
-      "url": "https://www.boursedirect.fr"
-    },
-    {
-      "name": "Khaleej Times",
-      "url": "https://www.khaleejtimes.com"
-    },
-    "Tunisie Numérique",
-    "La Gazette de France"
+      "name": "CB News",
+      "url": "https://www.cbnews.fr/digital/consultation-citoyenne-avenir-creation-humaine-ere-ia"
+    }
   ]
 }
