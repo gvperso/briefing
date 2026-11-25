@@ -199,6 +199,20 @@
     ],
     "countdowns": [
       {
+        "label": "Bourse US fermée (Thanksgiving)",
+        "date": "jeu. 26/11",
+        "days": 1,
+        "hot": true,
+        "note": "Futures CME (ES/NQ/YM) : arrêt à 19h00 Paris, pas de séance cash"
+      },
+      {
+        "label": "Clôture anticipée Wall Street",
+        "date": "ven. 27/11 19h00",
+        "days": 2,
+        "hot": true,
+        "note": "NYSE ferme à 13h00 ET ; liquidité réduite"
+      },
+      {
         "label": "Rollover ES/NQ/YM",
         "date": "jeu. 10/12",
         "days": 15
