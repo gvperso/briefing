@@ -1,352 +1,316 @@
 {
-  "date": "2026-11-25",
-  "date_label": "mer. 25/11/2026",
-  "generated_at": "généré à 6h30",
-  "quote": {
-    "text": "Citation du jour indisponible : aucune attribution n'a pu être vérifiée ce matin.",
-    "author": "",
-    "work": ""
+ "date": "2026-11-26",
+ "date_label": "jeu. 26/11/2026",
+ "generated_at": "généré à 6h20",
+ "quote": {
+  "text": "Citation du jour indisponible : aucune attribution n'a pu être vérifiée ce matin.",
+  "author": "",
+  "work": ""
+ },
+ "markets": [
+  {
+   "label": "OAT 10 ans",
+   "value": "4,73 %",
+   "change": "−5,4 pb",
+   "dir": "down"
   },
-  "markets": [
-    {
-      "label": "OAT 10 ans",
-      "value": "4,79 %",
-      "change": "0 pb",
-      "dir": "flat"
-    },
-    {
-      "label": "Bund 10 ans",
-      "value": "3,28 %",
-      "change": "+0,4 pb",
-      "dir": "up"
-    },
-    {
-      "label": "Écart OAT-Bund",
-      "value": "150 pb",
-      "change": "",
-      "dir": "flat"
-    },
-    {
-      "label": "US 10 ans",
-      "value": "4,90 %",
-      "change": "−3,2 pb",
-      "dir": "down"
-    },
-    {
-      "label": "VIX",
-      "value": "26,37",
-      "change": "−0,9 %",
-      "dir": "down",
-      "note": "plus haut de séance 32,38"
-    },
-    {
-      "label": "EUR/USD",
-      "value": "1,0945",
-      "change": "−0,18 %",
-      "dir": "down"
-    }
-  ],
-  "futures": [
-    {
-      "symbol": "NQ",
-      "price": "25 939",
-      "change": "−1,28 %",
-      "dir": "down",
-      "range": "25 905–26 351"
-    },
-    {
-      "symbol": "ES",
-      "price": "7 160",
-      "change": "−0,80 %",
-      "dir": "down",
-      "range": "7 160–7 224"
-    },
-    {
-      "symbol": "YM",
-      "price": "49 820",
-      "change": "−0,48 %",
-      "dir": "down",
-      "range": "49 817–50 060"
-    }
-  ],
-  "stocks": [
-    {
-      "ticker": "GLE",
-      "name": "Société Générale",
-      "price": "63,20 €",
-      "change": "−1,34 %",
-      "dir": "down"
-    },
-    {
-      "ticker": "ORA",
-      "name": "Orange",
-      "price": "15,29 €",
-      "change": "+2,72 %",
-      "dir": "up"
-    },
-    {
-      "ticker": "CS",
-      "name": "AXA",
-      "price": "45,32 €",
-      "change": "−0,09 %",
-      "dir": "down"
-    },
-    {
-      "ticker": "TTE",
-      "name": "TotalEnergies",
-      "price": "77,68 €",
-      "change": "+0,25 %",
-      "dir": "up",
-      "notes": [
-        {
-          "text": "Un tribunal kazakh donne partiellement raison à NCOC (opérateur de Kashagan, dont TotalEnergies est partenaire) dans son recours, rapporte Interfax (24/11).",
-          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4750RH:0/"
-        }
-      ]
-    },
-    {
-      "ticker": "ETL",
-      "name": "Eutelsat",
-      "price": "1,62 €",
-      "change": "+0,90 %",
-      "dir": "up",
-      "notes": [
-        {
-          "text": "Cité dans le point Reuters sur les changements de recommandations à Paris (24/11) ; détail non accessible.",
-          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4751H7:0/"
-        }
-      ]
-    },
-    {
-      "ticker": "SEL",
-      "name": "ETF Amundi Select Div. 30",
-      "price": "24,10 €",
-      "change": "−0,68 %",
-      "dir": "down"
-    },
-    {
-      "ticker": "SCR",
-      "name": "SCOR",
-      "price": "35,66 €",
-      "change": "+0,45 %",
-      "dir": "up"
-    },
-    {
-      "ticker": "ENGI",
-      "name": "Engie",
-      "price": "24,62 €",
-      "change": "+0,61 %",
-      "dir": "up"
-    },
-    {
-      "ticker": "BNP",
-      "name": "BNP Paribas",
-      "price": "90,28 €",
-      "change": "−1,31 %",
-      "dir": "down"
-    },
-    {
-      "ticker": "ALHPI",
-      "name": "Hopium",
-      "price": "0,0024 €",
-      "change": "−4,00 %",
-      "dir": "down",
-      "notes": [
-        {
-          "text": "Titre toujours coté, sous 0,01 € ; aucune news de moins de 36 h."
-        }
-      ]
-    }
-  ],
-  "stocks_footnote": "Dividendes/AG vérifiés le lundi.",
-  "trading": {
-    "events": [
-      {
-        "time": "14h30",
-        "name": "PCE core (oct., m/m)",
-        "detail": "consensus 0,3 % / précédent 0,3 %",
-        "stars": 3,
-        "in_session": false
-      },
-      {
-        "time": "14h30",
-        "name": "PIB T3, 2e estimation (t/t annualisé)",
-        "detail": "consensus 3,5 % / précédent 1,5 %",
-        "stars": 3,
-        "in_session": false
-      },
-      {
-        "time": "14h30",
-        "name": "Dépenses des ménages (oct., m/m)",
-        "detail": "consensus 0,4 % / précédent 0,5 %",
-        "stars": 3,
-        "in_session": false
-      },
-      {
-        "time": "14h30",
-        "name": "Revenus des ménages (oct., m/m)",
-        "detail": "consensus 0,4 % / précédent 0,2 %",
-        "stars": 3,
-        "in_session": false
-      },
-      {
-        "time": "14h30",
-        "name": "Commandes de biens durables (oct., m/m)",
-        "detail": "consensus 0,6 % / précédent 1,8 %",
-        "stars": 3,
-        "in_session": false
-      }
-    ],
-    "countdowns": [
-      {
-        "label": "Bourse US fermée (Thanksgiving)",
-        "date": "jeu. 26/11",
-        "days": 1,
-        "hot": true,
-        "note": "Futures CME (ES/NQ/YM) : arrêt à 19h00 Paris, pas de séance cash"
-      },
-      {
-        "label": "Clôture anticipée Wall Street",
-        "date": "ven. 27/11 19h00",
-        "days": 2,
-        "hot": true,
-        "note": "NYSE ferme à 13h00 ET ; liquidité réduite"
-      },
-      {
-        "label": "Rollover ES/NQ/YM",
-        "date": "jeu. 10/12",
-        "days": 15
-      },
-      {
-        "label": "NFP",
-        "date": "ven. 04/12 14h30",
-        "days": 9
-      },
-      {
-        "label": "CPI",
-        "date": "jeu. 10/12 14h30",
-        "days": 15
-      },
-      {
-        "label": "FOMC",
-        "date": "mer. 09/12 20h00",
-        "days": 14
-      }
-    ],
-    "orientation": [
-      {
-        "symbol": "NQ",
-        "supertrend": "down",
-        "level": "26 575",
-        "flux": "down"
-      },
-      {
-        "symbol": "ES",
-        "supertrend": "down",
-        "level": "7 272",
-        "flux": "down"
-      },
-      {
-        "symbol": "YM",
-        "supertrend": "up",
-        "level": "49 362",
-        "flux": "up"
-      }
-    ]
+  {
+   "label": "Bund 10 ans",
+   "value": "3,22 %",
+   "change": "−6,0 pb",
+   "dir": "down"
   },
-  "sections": [
+  {
+   "label": "Écart OAT-Bund",
+   "value": "151 pb",
+   "change": "",
+   "dir": "flat"
+  },
+  {
+   "label": "US 10 ans",
+   "value": "4,86 %",
+   "change": "−6,4 pb",
+   "dir": "down"
+  },
+  {
+   "label": "VIX",
+   "value": "28,28",
+   "change": "+7,2 %",
+   "dir": "up",
+   "note": "plus haut de séance 34,95"
+  },
+  {
+   "label": "EUR/USD",
+   "value": "1,0960",
+   "change": "−0,14 %",
+   "dir": "down"
+  }
+ ],
+ "futures": [
+  {
+   "symbol": "NQ",
+   "price": "26 397",
+   "change": "+1,14 %",
+   "dir": "up",
+   "range": "25 998–26 436"
+  },
+  {
+   "symbol": "ES",
+   "price": "7 251",
+   "change": "+0,77 %",
+   "dir": "up",
+   "range": "7 187–7 254"
+  },
+  {
+   "symbol": "YM",
+   "price": "50 439",
+   "change": "+0,42 %",
+   "dir": "up",
+   "range": "50 223–50 509"
+  }
+ ],
+ "stocks": [
+  {
+   "ticker": "GLE",
+   "name": "Société Générale",
+   "price": "61,33 €",
+   "change": "−2,96 %",
+   "dir": "down"
+  },
+  {
+   "ticker": "ORA",
+   "name": "Orange",
+   "price": "15,27 €",
+   "change": "−0,13 %",
+   "dir": "down"
+  },
+  {
+   "ticker": "CS",
+   "name": "AXA",
+   "price": "44,88 €",
+   "change": "−0,97 %",
+   "dir": "down"
+  },
+  {
+   "ticker": "TTE",
+   "name": "TotalEnergies",
+   "price": "77,28 €",
+   "change": "−0,51 %",
+   "dir": "down"
+  },
+  {
+   "ticker": "ETL",
+   "name": "Eutelsat",
+   "price": "1,56 €",
+   "change": "−3,43 %",
+   "dir": "down"
+  },
+  {
+   "ticker": "SEL",
+   "name": "ETF Amundi Select Div. 30",
+   "price": "23,91 €",
+   "change": "−0,81 %",
+   "dir": "down"
+  },
+  {
+   "ticker": "SCR",
+   "name": "SCOR",
+   "price": "35,52 €",
+   "change": "−0,39 %",
+   "dir": "down"
+  },
+  {
+   "ticker": "ENGI",
+   "name": "Engie",
+   "price": "24,41 €",
+   "change": "−0,85 %",
+   "dir": "down"
+  },
+  {
+   "ticker": "BNP",
+   "name": "BNP Paribas",
+   "price": "88,22 €",
+   "change": "−2,28 %",
+   "dir": "down",
+   "notes": [
     {
-      "id": "eco",
-      "icon": "📰",
-      "title": "Éco US/FR",
-      "items": [
-        {
-          "text": "Wall Street mardi : Nasdaq 100 −1,99 % (26 214), S&P 500 −0,50 % (7 201), Dow Jones +0,85 % (50 019). La tech rend une partie des gains de lundi (rebond Nvidia après le retour de Jensen Huang) ; « gueule de bois » de l'IA selon l'AFP.",
-          "url": "https://www.tradingview.com/news/afp:0c0d0b743f872:0/",
-          "source": "AFP"
-        },
-        {
-          "text": "Europe : CAC 40 −0,05 % à 8 040 (Sanofi +près de 10 %), Londres −0,13 %, Francfort −1,26 %.",
-          "url": "https://www.tradingview.com/news/afp:78ebfe298ad7a:0/",
-          "source": "AFP"
-        },
-        {
-          "text": "Aujourd'hui 14h30 : PCE core d'octobre, PIB T3 (2e estimation) et biens durables, avant ta séance. Jeudi, Wall Street fermée (Thanksgiving).",
-          "source": "TradingView"
-        }
-      ]
+     "text": "BNP Paribas prévoit de supprimer 100 postes en France, selon la CFDT (AFP, 25/11).",
+     "url": "https://www.tradingview.com/news/afp:21a4e02634eba:0/"
     },
     {
-      "id": "geo",
-      "icon": "🌍",
-      "title": "Géopolitique",
-      "items": [
-        {
-          "text": "Pétrole : le Brent a touché mardi un plus bas de trois mois avant de rebondir sur les menaces pesant sur le détroit d'Ormuz, puis a repris de l'avance face aux attaques persistantes au Moyen-Orient (Brent 87,48 $ ce matin, −1,5 %).",
-          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4751AH:0/",
-          "source": "Reuters"
-        }
-      ]
-    },
-    {
-      "id": "pol",
-      "icon": "🇫🇷",
-      "title": "Politique FR",
-      "items": []
-    },
-    {
-      "id": "mma",
-      "icon": "🥊",
-      "title": "MMA",
-      "items": [
-        {
-          "text": "Prochains combats :",
-          "sub": [
-            {
-              "text": "Gane : prochain combat non trouvé (dernier connu : UFC 334, nuit du 14 au 15/11, contre Josh Hokit selon Flashscore)"
-            },
-            {
-              "text": "Saint-Denis : non programmé (défait par Pimblett le 11/07 ; aucun adversaire annoncé selon une source de juillet)"
-            },
-            {
-              "text": "Duclos : non programmé / non confirmé"
-            },
-            {
-              "text": "Fiorot : Grasso était annoncée le 12/09 ; prochain combat non trouvé"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sci",
-      "icon": "🔬",
-      "title": "Science",
-      "items": [
-        {
-          "text": "Consultation citoyenne en ligne (Make.org, du 23/11 au 17/01) lancée par plusieurs organisations culturelles (SACD, Sacem, SNE…) sur l'avenir de la création humaine à l'ère de l'IA.",
-          "url": "https://www.cbnews.fr/digital/consultation-citoyenne-avenir-creation-humaine-ere-ia",
-          "source": "CB News"
-        }
-      ]
+     "text": "Notification ACPR 2026 sur le classement de BNP Paribas parmi les G-SIBs (communiqué, 25/11).",
+     "url": "https://www.tradingview.com/news/globenewswire:a87c1b33bb858:0/"
     }
-  ],
-  "warnings": [
-    "Recherches web très limitées ce matin (pages d'actualité peu accessibles) : Ukraine/Russie, politique FR, science et MMA sans fait vérifié de moins de 24-48 h.",
-    "Citation du jour non vérifiée : aucune attribution confirmée, donc omise.",
-    "Clôture de Wall Street et indices : données TradingView ; détail des articles AFP/Reuters non lisible (titres seulement).",
-    "MMA : informations issues de sources datant de juillet/novembre, à confirmer."
-  ],
-  "sources": [
+   ]
+  },
+  {
+   "ticker": "ALHPI",
+   "name": "Hopium",
+   "price": "0,0024 €",
+   "change": "0,00 %",
+   "dir": "flat",
+   "notes": [
     {
-      "name": "TradingView",
-      "url": "https://www.tradingview.com"
-    },
-    "AFP",
-    "Reuters",
-    {
-      "name": "CB News",
-      "url": "https://www.cbnews.fr/digital/consultation-citoyenne-avenir-creation-humaine-ere-ia"
+     "text": "Titre toujours coté, sous 0,01 € ; aucune news de moins de 36 h."
     }
+   ]
+  }
+ ],
+ "stocks_footnote": "Dividendes/AG vérifiés le lundi.",
+ "trading": {
+  "events_title": "Aucune annonce US aujourd'hui (Thanksgiving, Wall Street fermée)",
+  "events": [],
+  "countdowns": [
+   {
+    "label": "Bourse US fermée (Thanksgiving)",
+    "date": "jeu. 26/11",
+    "days": 0,
+    "hot": true,
+    "note": "Futures CME (ES/NQ/YM) : arrêt à 19h00 Paris (12h00 CT), pas de séance cash"
+   },
+   {
+    "label": "Clôture anticipée Wall Street",
+    "date": "ven. 27/11 19h00",
+    "days": 1,
+    "hot": true,
+    "note": "NYSE ferme à 13h00 ET ; liquidité réduite"
+   },
+   {
+    "label": "NFP",
+    "date": "ven. 04/12 14h30",
+    "days": 8
+   },
+   {
+    "label": "FOMC",
+    "date": "mer. 09/12 20h00",
+    "days": 13
+   },
+   {
+    "label": "Rollover ES/NQ/YM",
+    "date": "jeu. 10/12",
+    "days": 14
+   },
+   {
+    "label": "CPI",
+    "date": "jeu. 10/12 14h30",
+    "days": 14
+   }
+  ],
+  "orientation": [
+   {
+    "symbol": "NQ",
+    "supertrend": "up",
+    "level": "25 791",
+    "flux": "flat"
+   },
+   {
+    "symbol": "ES",
+    "supertrend": "up",
+    "level": "7 140",
+    "flux": "up"
+   },
+   {
+    "symbol": "YM",
+    "supertrend": "up",
+    "level": "49 859",
+    "flux": "up"
+   }
   ]
+ },
+ "sections": [
+  {
+   "id": "eco",
+   "icon": "📰",
+   "title": "Éco US/FR",
+   "items": [
+    {
+     "text": "Wall Street mercredi : Nasdaq 100 −0,64 % (26 047), S&P 500 −0,25 % (7 183), Dow Jones +0,33 % (50 183). Les valeurs IA ont accentué leur chute avant un rebond en fin de séance qui a limité les dégâts.",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4761F8:0/",
+     "source": "Reuters"
+    },
+    {
+     "text": "Europe : CAC 40 −0,75 % à 7 981, Francfort −1,26 %, Londres −0,38 %, entraînés par Wall Street.",
+     "url": "https://www.tradingview.com/news/afp:d3205971b5b8c:0/",
+     "source": "AFP"
+    },
+    {
+     "text": "Inflation US en hausse et nouveaux tarifs douaniers proposés par Trump pour 14 pays (revue du soir du 25/11).",
+     "url": "https://www.tradingview.com/news/invezz:21594c4beb858:0/",
+     "source": "Invezz"
+    },
+    {
+     "text": "Aujourd'hui Wall Street est fermée (Thanksgiving) ; demain clôture anticipée à 19h00 Paris.",
+     "source": "Calendrier NYSE"
+    }
+   ]
+  },
+  {
+   "id": "geo",
+   "icon": "🌍",
+   "title": "Géopolitique",
+   "items": [
+    {
+     "text": "Pétrole : les attaques répétées au Moyen-Orient font remonter les prix (le Brent avait touché mardi un plus bas de trois mois avant de rebondir sur les menaces pesant sur le détroit d'Ormuz).",
+     "url": "https://www.tradingview.com/news/afp:11fdb6cd304a4:0/",
+     "source": "AFP"
+    }
+   ]
+  },
+  {
+   "id": "pol",
+   "icon": "🇫🇷",
+   "title": "Politique FR",
+   "items": []
+  },
+  {
+   "id": "mma",
+   "icon": "🥊",
+   "title": "MMA",
+   "items": [
+    {
+     "text": "Prochains combats :",
+     "sub": [
+      {
+       "text": "Gane : prochain combat non trouvé (dernier connu : UFC 334, nuit du 14 au 15/11, contre Josh Hokit)"
+      },
+      {
+       "text": "Saint-Denis : non programmé (défait par Pimblett le 11/07)"
+      },
+      {
+       "text": "Duclos : non programmé / non confirmé"
+      },
+      {
+       "text": "Fiorot : battue par Grasso le 12/09 (Noche UFC) ; prochain combat non trouvé"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sci",
+   "icon": "🔬",
+   "title": "Science",
+   "items": []
+  }
+ ],
+ "warnings": [
+  "Citation du jour : aucune attribution vérifiée (recherches sans extraits exploitables).",
+  "Ukraine/Russie, politique FR et science : aucune info datée de moins de 24-48 h vérifiée ce matin (rubriques vides).",
+  "Cours du Brent n/d ; futures affichés = dernière cotation Thanksgiving."
+ ],
+ "sources": [
+  {
+   "name": "TradingView",
+   "url": "https://www.tradingview.com/"
+  },
+  {
+   "name": "Reuters"
+  },
+  {
+   "name": "AFP"
+  },
+  {
+   "name": "Invezz"
+  }
+ ]
 }
