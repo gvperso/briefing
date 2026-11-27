@@ -1,305 +1,304 @@
 {
- "date": "2026-11-27",
- "date_label": "ven. 27/11/2026",
- "generated_at": "généré à 6h20",
- "quote": {
-  "text": "Citation du jour indisponible : aucune attribution n'a pu être vérifiée ce matin.",
-  "author": "",
-  "work": ""
- },
- "markets": [
-  {
-   "label": "OAT 10 ans",
-   "value": "4,72 %",
-   "change": "−0,8 pb",
-   "dir": "down"
+  "date": "2026-11-27",
+  "date_label": "ven. 27/11/2026",
+  "generated_at": "généré à 6h20",
+  "quote": {
+    "text": "Quand un philosophe me répond, je ne comprends plus ma question.",
+    "author": "Pierre Desproges",
+    "work": ""
   },
-  {
-   "label": "Bund 10 ans",
-   "value": "3,26 %",
-   "change": "+3,6 pb",
-   "dir": "up"
-  },
-  {
-   "label": "Écart OAT-Bund",
-   "value": "147 pb",
-   "change": "",
-   "dir": "flat"
-  },
-  {
-   "label": "US 10 ans",
-   "value": "4,91 %",
-   "change": "+4,8 pb",
-   "dir": "up"
-  },
-  {
-   "label": "VIX",
-   "value": "28,28",
-   "change": "+7,2 %",
-   "dir": "up",
-   "note": "dernière cotation (mercredi) ; plus haut 34,95"
-  },
-  {
-   "label": "EUR/USD",
-   "value": "1,0975",
-   "change": "+0,05 %",
-   "dir": "up"
-  }
- ],
- "futures": [
-  {
-   "symbol": "NQ",
-   "price": "26 808",
-   "change": "+2,71 %",
-   "dir": "up",
-   "range": "25 998–26 819"
-  },
-  {
-   "symbol": "ES",
-   "price": "7 328",
-   "change": "+1,83 %",
-   "dir": "up",
-   "range": "7 187–7 329"
-  },
-  {
-   "symbol": "YM",
-   "price": "50 774",
-   "change": "+1,09 %",
-   "dir": "up",
-   "range": "50 223–50 778"
-  }
- ],
- "stocks": [
-  {
-   "ticker": "GLE",
-   "name": "Société Générale",
-   "price": "63,06 €",
-   "change": "+2,82 %",
-   "dir": "up"
-  },
-  {
-   "ticker": "ORA",
-   "name": "Orange",
-   "price": "15,44 €",
-   "change": "+1,11 %",
-   "dir": "up"
-  },
-  {
-   "ticker": "CS",
-   "name": "AXA",
-   "price": "45,72 €",
-   "change": "+1,87 %",
-   "dir": "up"
-  },
-  {
-   "ticker": "TTE",
-   "name": "TotalEnergies",
-   "price": "78,36 €",
-   "change": "+1,40 %",
-   "dir": "up"
-  },
-  {
-   "ticker": "ETL",
-   "name": "Eutelsat",
-   "price": "1,54 €",
-   "change": "−1,60 %",
-   "dir": "down",
-   "notes": [
+  "markets": [
     {
-     "text": "Citée dans le point Reuters du 26/11 sur les changements de recommandations à Paris.",
-     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4770F5:0/"
-    }
-   ]
-  },
-  {
-   "ticker": "SEL",
-   "name": "ETF Amundi Select Div. 30",
-   "price": "24,39 €",
-   "change": "+2,01 %",
-   "dir": "up"
-  },
-  {
-   "ticker": "SCR",
-   "name": "SCOR",
-   "price": "36,10 €",
-   "change": "+1,63 %",
-   "dir": "up"
-  },
-  {
-   "ticker": "ENGI",
-   "name": "Engie",
-   "price": "24,83 €",
-   "change": "+1,72 %",
-   "dir": "up"
-  },
-  {
-   "ticker": "BNP",
-   "name": "BNP Paribas",
-   "price": "90,64 €",
-   "change": "+2,74 %",
-   "dir": "up",
-   "notes": [
-    {
-     "text": "BNP Paribas acquiert la startup de services aux entreprises Mūcho (Reuters, 26/11).",
-     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4762GQ:0/"
-    }
-   ]
-  },
-  {
-   "ticker": "ALHPI",
-   "name": "Hopium",
-   "price": "0,0024 €",
-   "change": "0,00 %",
-   "dir": "flat",
-   "notes": [
-    {
-     "text": "Titre toujours coté, sous 0,01 € ; aucune news de moins de 36 h."
-    }
-   ]
-  }
- ],
- "stocks_footnote": "Dividendes/AG vérifiés le lundi.",
- "trading": {
-  "events_title": "Aucune 3★ aujourd'hui — 2★ :",
-  "events": [
-   {
-    "time": "14h30",
-    "name": "Balance commerciale des biens (prélim.)",
-    "detail": "consensus −133 Md$ / précédent −134,9 Md$",
-    "stars": 2,
-    "in_session": false
-   }
-  ],
-  "countdowns": [
-   {
-    "label": "Clôture anticipée Wall Street",
-    "date": "ven. 27/11 19h00",
-    "days": 0,
-    "hot": true,
-    "note": "NYSE ferme à 13h00 ET ; liquidité réduite"
-   },
-   {
-    "label": "NFP",
-    "date": "ven. 04/12 14h30",
-    "days": 7
-   },
-   {
-    "label": "FOMC",
-    "date": "mer. 09/12 20h00",
-    "days": 12
-   },
-   {
-    "label": "Rollover ES/NQ/YM",
-    "date": "jeu. 10/12",
-    "days": 13
-   },
-   {
-    "label": "CPI",
-    "date": "jeu. 10/12 14h30",
-    "days": 13
-   }
-  ],
-  "orientation": [
-   {
-    "symbol": "NQ",
-    "supertrend": "up",
-    "level": "26 412",
-    "flux": "up"
-   },
-   {
-    "symbol": "ES",
-    "supertrend": "up",
-    "level": "7 262",
-    "flux": "up"
-   },
-   {
-    "symbol": "YM",
-    "supertrend": "up",
-    "level": "50 457",
-    "flux": "up"
-   }
-  ]
- },
- "sections": [
-  {
-   "id": "eco",
-   "icon": "📰",
-   "title": "Éco US/FR",
-   "items": [
-    {
-     "text": "Bourses européennes jeudi (Wall Street fermée pour Thanksgiving) : CAC 40 +1,61 % à 8 109, Francfort +2,08 %, Londres +1,75 %, dans le sillage du rebond de fin de séance des valeurs IA mercredi.",
-     "url": "https://www.tradingview.com/news/afp:d1459b9bb5b61:0/",
-     "source": "AFP"
+      "label": "OAT 10 ans",
+      "value": "4,72 %",
+      "change": "−0,8 pb",
+      "dir": "down"
     },
     {
-     "text": "Wall Street mercredi : Nasdaq 100 −0,64 % (26 047), S&P 500 −0,25 % (7 183). Les futures US rebondissent nettement depuis (NQ +2,7 %).",
-     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4761F8:0/",
-     "source": "Reuters"
+      "label": "Bund 10 ans",
+      "value": "3,26 %",
+      "change": "+3,6 pb",
+      "dir": "up"
     },
     {
-     "text": "Séance écourtée aujourd'hui : Wall Street ferme à 19h00 Paris (13h00 ET).",
-     "source": "Calendrier NYSE"
-    }
-   ]
-  },
-  {
-   "id": "geo",
-   "icon": "🌍",
-   "title": "Géopolitique",
-   "items": []
-  },
-  {
-   "id": "pol",
-   "icon": "🇫🇷",
-   "title": "Politique FR",
-   "items": []
-  },
-  {
-   "id": "mma",
-   "icon": "🥊",
-   "title": "MMA",
-   "items": [
+      "label": "Écart OAT-Bund",
+      "value": "147 pb",
+      "change": "",
+      "dir": "flat"
+    },
     {
-     "text": "Prochains combats :",
-     "sub": [
+      "label": "US 10 ans",
+      "value": "4,91 %",
+      "change": "+4,8 pb",
+      "dir": "up"
+    },
+    {
+      "label": "VIX",
+      "value": "28,28",
+      "change": "+7,2 %",
+      "dir": "up",
+      "note": "dernière cotation (mercredi) ; plus haut 34,95"
+    },
+    {
+      "label": "EUR/USD",
+      "value": "1,0975",
+      "change": "+0,05 %",
+      "dir": "up"
+    }
+  ],
+  "futures": [
+    {
+      "symbol": "NQ",
+      "price": "26 808",
+      "change": "+2,71 %",
+      "dir": "up",
+      "range": "25 998–26 819"
+    },
+    {
+      "symbol": "ES",
+      "price": "7 328",
+      "change": "+1,83 %",
+      "dir": "up",
+      "range": "7 187–7 329"
+    },
+    {
+      "symbol": "YM",
+      "price": "50 774",
+      "change": "+1,09 %",
+      "dir": "up",
+      "range": "50 223–50 778"
+    }
+  ],
+  "stocks": [
+    {
+      "ticker": "GLE",
+      "name": "Société Générale",
+      "price": "63,06 €",
+      "change": "+2,82 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "ORA",
+      "name": "Orange",
+      "price": "15,44 €",
+      "change": "+1,11 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "CS",
+      "name": "AXA",
+      "price": "45,72 €",
+      "change": "+1,87 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "TTE",
+      "name": "TotalEnergies",
+      "price": "78,36 €",
+      "change": "+1,40 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "ETL",
+      "name": "Eutelsat",
+      "price": "1,54 €",
+      "change": "−1,60 %",
+      "dir": "down",
+      "notes": [
+        {
+          "text": "Citée dans le point Reuters du 26/11 sur les changements de recommandations à Paris.",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4770F5:0/"
+        }
+      ]
+    },
+    {
+      "ticker": "SEL",
+      "name": "ETF Amundi Select Div. 30",
+      "price": "24,39 €",
+      "change": "+2,01 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "SCR",
+      "name": "SCOR",
+      "price": "36,10 €",
+      "change": "+1,63 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "ENGI",
+      "name": "Engie",
+      "price": "24,83 €",
+      "change": "+1,72 %",
+      "dir": "up"
+    },
+    {
+      "ticker": "BNP",
+      "name": "BNP Paribas",
+      "price": "90,64 €",
+      "change": "+2,74 %",
+      "dir": "up",
+      "notes": [
+        {
+          "text": "BNP Paribas acquiert la startup de services aux entreprises Mūcho (Reuters, 26/11).",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4762GQ:0/"
+        }
+      ]
+    },
+    {
+      "ticker": "ALHPI",
+      "name": "Hopium",
+      "price": "0,0024 €",
+      "change": "0,00 %",
+      "dir": "flat",
+      "notes": [
+        {
+          "text": "Titre toujours coté, sous 0,01 € ; aucune news de moins de 36 h."
+        }
+      ]
+    }
+  ],
+  "stocks_footnote": "Dividendes/AG vérifiés le lundi.",
+  "trading": {
+    "events_title": "Aucune 3★ aujourd'hui — 2★ :",
+    "events": [
       {
-       "text": "Gane : prochain combat non trouvé (dernier connu : UFC 334, nuit du 14 au 15/11, contre Josh Hokit)"
-      },
-      {
-       "text": "Saint-Denis : non programmé (défait par Pimblett le 11/07)"
-      },
-      {
-       "text": "Duclos : non programmé / non confirmé"
-      },
-      {
-       "text": "Fiorot : battue par Grasso le 12/09 (Noche UFC) ; prochain combat non trouvé"
+        "time": "14h30",
+        "name": "Balance commerciale des biens (prélim.)",
+        "detail": "consensus −133 Md$ / précédent −134,9 Md$",
+        "stars": 2,
+        "in_session": false
       }
-     ]
+    ],
+    "countdowns": [
+      {
+        "label": "Clôture anticipée Wall Street",
+        "date": "ven. 27/11 19h00",
+        "days": 0,
+        "hot": true,
+        "note": "NYSE ferme à 13h00 ET ; liquidité réduite"
+      },
+      {
+        "label": "NFP",
+        "date": "ven. 04/12 14h30",
+        "days": 7
+      },
+      {
+        "label": "FOMC",
+        "date": "mer. 09/12 20h00",
+        "days": 12
+      },
+      {
+        "label": "Rollover ES/NQ/YM",
+        "date": "jeu. 10/12",
+        "days": 13
+      },
+      {
+        "label": "CPI",
+        "date": "jeu. 10/12 14h30",
+        "days": 13
+      }
+    ],
+    "orientation": [
+      {
+        "symbol": "NQ",
+        "supertrend": "up",
+        "level": "26 412",
+        "flux": "up"
+      },
+      {
+        "symbol": "ES",
+        "supertrend": "up",
+        "level": "7 262",
+        "flux": "up"
+      },
+      {
+        "symbol": "YM",
+        "supertrend": "up",
+        "level": "50 457",
+        "flux": "up"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "eco",
+      "icon": "📰",
+      "title": "Éco US/FR",
+      "items": [
+        {
+          "text": "Bourses européennes jeudi (Wall Street fermée pour Thanksgiving) : CAC 40 +1,61 % à 8 109, Francfort +2,08 %, Londres +1,75 %, dans le sillage du rebond de fin de séance des valeurs IA mercredi.",
+          "url": "https://www.tradingview.com/news/afp:d1459b9bb5b61:0/",
+          "source": "AFP"
+        },
+        {
+          "text": "Wall Street mercredi : Nasdaq 100 −0,64 % (26 047), S&P 500 −0,25 % (7 183). Les futures US rebondissent nettement depuis (NQ +2,7 %).",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4761F8:0/",
+          "source": "Reuters"
+        },
+        {
+          "text": "Séance écourtée aujourd'hui : Wall Street ferme à 19h00 Paris (13h00 ET).",
+          "source": "Calendrier NYSE"
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "icon": "🌍",
+      "title": "Géopolitique",
+      "items": []
+    },
+    {
+      "id": "pol",
+      "icon": "🇫🇷",
+      "title": "Politique FR",
+      "items": []
+    },
+    {
+      "id": "mma",
+      "icon": "🥊",
+      "title": "MMA",
+      "items": [
+        {
+          "text": "Prochains combats :",
+          "sub": [
+            {
+              "text": "Gane : prochain combat non trouvé (dernier connu : UFC 334, nuit du 14 au 15/11, contre Josh Hokit)"
+            },
+            {
+              "text": "Saint-Denis : non programmé (défait par Pimblett le 11/07)"
+            },
+            {
+              "text": "Duclos : non programmé / non confirmé"
+            },
+            {
+              "text": "Fiorot : battue par Grasso le 12/09 (Noche UFC) ; prochain combat non trouvé"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sci",
+      "icon": "🔬",
+      "title": "Science",
+      "items": []
     }
-   ]
-  },
-  {
-   "id": "sci",
-   "icon": "🔬",
-   "title": "Science",
-   "items": []
-  }
- ],
- "warnings": [
-  "Citation du jour : aucune attribution vérifiée (recherches sans extraits exploitables).",
-  "Géopolitique, politique FR et science : aucune info datée de moins de 24-48 h vérifiée ce matin (rubriques vides). MMA repris de la veille.",
-  "Dow Jones et Brent indisponibles ; VIX et indices US = dernière cotation (mercredi)."
- ],
- "sources": [
-  {
-   "name": "TradingView",
-   "url": "https://www.tradingview.com/"
-  },
-  {
-   "name": "Reuters"
-  },
-  {
-   "name": "AFP"
-  }
- ]
+  ],
+  "warnings": [
+    "Géopolitique, politique FR et science : aucune info datée de moins de 24-48 h vérifiée ce matin (rubriques vides). MMA repris de la veille.",
+    "Dow Jones et Brent indisponibles ; VIX et indices US = dernière cotation (mercredi)."
+  ],
+  "sources": [
+    {
+      "name": "TradingView",
+      "url": "https://www.tradingview.com/"
+    },
+    {
+      "name": "Reuters"
+    },
+    {
+      "name": "AFP"
+    }
+  ]
 }
