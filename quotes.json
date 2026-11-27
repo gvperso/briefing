@@ -19,31 +19,31 @@
   },
   {
     "id": 4,
-    "text": "Monsieur Esnault, si la connerie n'est pas remboursée par les assurances sociales, vous finirez sur la paille !",
-    "author": "Michel Audiard",
-    "work": "Un singe en hiver (1962)"
+    "text": "C'est pas faux.",
+    "author": "Perceval",
+    "work": "Kaamelott (Alexandre Astier)"
   },
   {
     "id": 5,
+    "text": "Les technocrates, si on leur donnait le Sahara, dans cinq ans il faudrait qu'ils achètent du sable ailleurs.",
+    "author": "Coluche",
+    "work": ""
+  },
+  {
+    "id": 6,
+    "text": "Rien ne sert de penser, il faut réfléchir avant.",
+    "author": "Pierre Dac",
+    "work": ""
+  },
+  {
+    "id": 7,
     "text": "Mozart était tellement précoce qu'à 35 ans il était déjà mort.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 6,
-    "text": "Non mais t'as déjà vu ça ? En pleine paix ! Il chante et puis crac, un bourre-pif !",
-    "author": "Michel Audiard",
-    "work": "Les Tontons flingueurs (1963)"
-  },
-  {
-    "id": 7,
-    "text": "Le voisin est un animal nuisible assez proche de l'homme.",
-    "author": "Pierre Desproges",
-    "work": ""
-  },
-  {
     "id": 8,
-    "text": "Si je buvais moins, je serais un autre homme. Et j'y tiens !",
+    "text": "Monsieur Esnault, si la connerie n'est pas remboursée par les assurances sociales, vous finirez sur la paille !",
     "author": "Michel Audiard",
     "work": "Un singe en hiver (1962)"
   },
@@ -55,78 +55,210 @@
   },
   {
     "id": 10,
+    "text": "Le gras, c'est la vie !",
+    "author": "Karadoc",
+    "work": "Kaamelott (Alexandre Astier)"
+  },
+  {
+    "id": 11,
+    "text": "C'est pas parce qu'ils sont nombreux à avoir tort qu'ils ont raison.",
+    "author": "Coluche",
+    "work": ""
+  },
+  {
+    "id": 12,
+    "text": "Ceux qui ne savent rien en savent toujours autant que ceux qui n'en savent pas plus qu'eux.",
+    "author": "Pierre Dac",
+    "work": ""
+  },
+  {
+    "id": 13,
+    "text": "Le voisin est un animal nuisible assez proche de l'homme.",
+    "author": "Pierre Desproges",
+    "work": ""
+  },
+  {
+    "id": 14,
+    "text": "Non mais t'as déjà vu ça ? En pleine paix ! Il chante et puis crac, un bourre-pif !",
+    "author": "Michel Audiard",
+    "work": "Les Tontons flingueurs (1963)"
+  },
+  {
+    "id": 15,
+    "text": "Ils ont pas de bol, quand même ! Mettre au point un truc pareil et tomber sur des cerveaux comme nous !",
+    "author": "Perceval",
+    "work": "Kaamelott (Alexandre Astier)"
+  },
+  {
+    "id": 16,
+    "text": "L'horreur est humaine.",
+    "author": "Coluche",
+    "work": ""
+  },
+  {
+    "id": 17,
+    "text": "Rien ne peut servir à tout, mais tout peut très bien ne servir à rien.",
+    "author": "Pierre Dac",
+    "work": ""
+  },
+  {
+    "id": 18,
     "text": "L'homme naît bon. Ça commence à se dégrader entre six et sept mois.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 11,
-    "text": "Je ne dis pas que c'est pas injuste, je dis que ça soulage.",
+    "id": 19,
+    "text": "Si je buvais moins, je serais un autre homme. Et j'y tiens !",
     "author": "Michel Audiard",
-    "work": "Les Tontons flingueurs (1963)"
+    "work": "Un singe en hiver (1962)"
   },
   {
-    "id": 12,
+    "id": 20,
+    "text": "Sire ! On en a gros !",
+    "author": "Perceval",
+    "work": "Kaamelott (Alexandre Astier)"
+  },
+  {
+    "id": 21,
+    "text": "L'intelligence, on croit toujours en avoir assez, vu que c'est avec ça qu'on juge.",
+    "author": "Coluche",
+    "work": ""
+  },
+  {
+    "id": 22,
+    "text": "Né à Delhi, de petite taille et d'un caractère paisible, c'était un nain doux.",
+    "author": "Pierre Dac",
+    "work": ""
+  },
+  {
+    "id": 23,
     "text": "Je me suis fait auprès de ma femme une solide réputation de monogame.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 13,
-    "text": "Une paella sans coquillages, un gigot sans ail, un escroc sans rosette : quelque chose qui déplaît à Dieu !",
+    "id": 24,
+    "text": "Je ne dis pas que c'est pas injuste, je dis que ça soulage.",
     "author": "Michel Audiard",
-    "work": "Un singe en hiver (1962)"
+    "work": "Les Tontons flingueurs (1963)"
   },
   {
-    "id": 14,
+    "id": 25,
+    "text": "Personnellement, la condition paysanne, j'me la taille en biseau, voyez.",
+    "author": "Léodagan",
+    "work": "Kaamelott (Alexandre Astier)"
+  },
+  {
+    "id": 26,
+    "text": "Se pencher sur son passé, c'est risquer de tomber dans l'oubli.",
+    "author": "Coluche",
+    "work": ""
+  },
+  {
+    "id": 27,
+    "text": "On a beau intervertir l'ordre des facteurs, le courrier n'arrive pas plus vite.",
+    "author": "Pierre Dac",
+    "work": ""
+  },
+  {
+    "id": 28,
     "text": "Il y a comme ça des jours où on se demande si Dieu ne boit pas.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 15,
-    "text": "Il connaît pas Raoul, ce mec ! Il va avoir un réveil pénible.",
+    "id": 29,
+    "text": "Une paella sans coquillages, un gigot sans ail, un escroc sans rosette : quelque chose qui déplaît à Dieu !",
     "author": "Michel Audiard",
-    "work": "Les Tontons flingueurs (1963)"
+    "work": "Un singe en hiver (1962)"
   },
   {
-    "id": 16,
+    "id": 30,
+    "text": "C'est pas parce qu'un vieux moisi vient nous baver dans les étagères que ça vaut forcément quelque chose.",
+    "author": "Léodagan",
+    "work": "Kaamelott (Alexandre Astier)"
+  },
+  {
+    "id": 31,
+    "text": "C'est pas le tout d'avoir des bagages, encore faut-il savoir où les poser.",
+    "author": "Coluche",
+    "work": ""
+  },
+  {
+    "id": 32,
+    "text": "Quand celui qui rit le dernier a fini de rire, personne ne rigole plus.",
+    "author": "Pierre Dac",
+    "work": ""
+  },
+  {
+    "id": 33,
     "text": "Et puis nos coutumes divergent, et divergent, c'est énorme.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 17,
+    "id": 34,
+    "text": "Il connaît pas Raoul, ce mec ! Il va avoir un réveil pénible.",
+    "author": "Michel Audiard",
+    "work": "Les Tontons flingueurs (1963)"
+  },
+  {
+    "id": 35,
+    "text": "Un sens interdit, en somme, ce n'est qu'un sens autorisé, mais pris à l'envers.",
+    "author": "Pierre Dac",
+    "work": ""
+  },
+  {
+    "id": 36,
     "text": "Conseils aux centenaires : dépêchez-vous.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 18,
+    "id": 37,
+    "text": "Quand on mettra les cons sur orbite, t'as pas fini de tourner.",
+    "author": "Michel Audiard",
+    "work": "Le Pacha (1968)"
+  },
+  {
+    "id": 38,
+    "text": "Rien ne sert de courir si l'on n'est pas pressé.",
+    "author": "Pierre Dac",
+    "work": ""
+  },
+  {
+    "id": 39,
     "text": "Quadrumane : qui a quatre mains. Exemple : le rossignol n'est pas quadrumane.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 19,
+    "id": 40,
+    "text": "Un barbu, c'est un barbu. Trois barbus, c'est des barbouzes.",
+    "author": "Michel Audiard",
+    "work": "Les Barbouzes (1964)"
+  },
+  {
+    "id": 41,
     "text": "Je suis un gaucher contrariant. C'est plus fort que moi, il faut que j'emmerde les droitiers.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 20,
+    "id": 42,
     "text": "Et puis quoi, qu'importe la culture ? Quand il a écrit Hamlet, Molière avait-il lu Rostand ? Non.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 21,
+    "id": 43,
     "text": "Les rois mages étaient trois. Il y avait César, et pis Marius, et pis Fanny.",
     "author": "Pierre Desproges",
     "work": ""
   },
   {
-    "id": 22,
+    "id": 44,
     "text": "Pour gagner les cinquante francs de son pari, le jeune Milanais Francesco Rizzi a mangé entièrement un poulet cru. Qui l'eût cuit ?",
     "author": "Pierre Desproges",
     "work": ""
