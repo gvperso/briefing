@@ -1,6 +1,6 @@
 {
- "date": "2026-11-26",
- "date_label": "jeu. 26/11/2026",
+ "date": "2026-11-27",
+ "date_label": "ven. 27/11/2026",
  "generated_at": "généré à 6h20",
  "quote": {
   "text": "Citation du jour indisponible : aucune attribution n'a pu être vérifiée ce matin.",
@@ -10,136 +10,138 @@
  "markets": [
   {
    "label": "OAT 10 ans",
-   "value": "4,73 %",
-   "change": "−5,4 pb",
+   "value": "4,72 %",
+   "change": "−0,8 pb",
    "dir": "down"
   },
   {
    "label": "Bund 10 ans",
-   "value": "3,22 %",
-   "change": "−6,0 pb",
-   "dir": "down"
+   "value": "3,26 %",
+   "change": "+3,6 pb",
+   "dir": "up"
   },
   {
    "label": "Écart OAT-Bund",
-   "value": "151 pb",
+   "value": "147 pb",
    "change": "",
    "dir": "flat"
   },
   {
    "label": "US 10 ans",
-   "value": "4,86 %",
-   "change": "−6,4 pb",
-   "dir": "down"
+   "value": "4,91 %",
+   "change": "+4,8 pb",
+   "dir": "up"
   },
   {
    "label": "VIX",
    "value": "28,28",
    "change": "+7,2 %",
    "dir": "up",
-   "note": "plus haut de séance 34,95"
+   "note": "dernière cotation (mercredi) ; plus haut 34,95"
   },
   {
    "label": "EUR/USD",
-   "value": "1,0960",
-   "change": "−0,14 %",
-   "dir": "down"
+   "value": "1,0975",
+   "change": "+0,05 %",
+   "dir": "up"
   }
  ],
  "futures": [
   {
    "symbol": "NQ",
-   "price": "26 397",
-   "change": "+1,14 %",
+   "price": "26 808",
+   "change": "+2,71 %",
    "dir": "up",
-   "range": "25 998–26 436"
+   "range": "25 998–26 819"
   },
   {
    "symbol": "ES",
-   "price": "7 251",
-   "change": "+0,77 %",
+   "price": "7 328",
+   "change": "+1,83 %",
    "dir": "up",
-   "range": "7 187–7 254"
+   "range": "7 187–7 329"
   },
   {
    "symbol": "YM",
-   "price": "50 439",
-   "change": "+0,42 %",
+   "price": "50 774",
+   "change": "+1,09 %",
    "dir": "up",
-   "range": "50 223–50 509"
+   "range": "50 223–50 778"
   }
  ],
  "stocks": [
   {
    "ticker": "GLE",
    "name": "Société Générale",
-   "price": "61,33 €",
-   "change": "−2,96 %",
-   "dir": "down"
+   "price": "63,06 €",
+   "change": "+2,82 %",
+   "dir": "up"
   },
   {
    "ticker": "ORA",
    "name": "Orange",
-   "price": "15,27 €",
-   "change": "−0,13 %",
-   "dir": "down"
+   "price": "15,44 €",
+   "change": "+1,11 %",
+   "dir": "up"
   },
   {
    "ticker": "CS",
    "name": "AXA",
-   "price": "44,88 €",
-   "change": "−0,97 %",
-   "dir": "down"
+   "price": "45,72 €",
+   "change": "+1,87 %",
+   "dir": "up"
   },
   {
    "ticker": "TTE",
    "name": "TotalEnergies",
-   "price": "77,28 €",
-   "change": "−0,51 %",
-   "dir": "down"
+   "price": "78,36 €",
+   "change": "+1,40 %",
+   "dir": "up"
   },
   {
    "ticker": "ETL",
    "name": "Eutelsat",
-   "price": "1,56 €",
-   "change": "−3,43 %",
-   "dir": "down"
+   "price": "1,54 €",
+   "change": "−1,60 %",
+   "dir": "down",
+   "notes": [
+    {
+     "text": "Citée dans le point Reuters du 26/11 sur les changements de recommandations à Paris.",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4770F5:0/"
+    }
+   ]
   },
   {
    "ticker": "SEL",
    "name": "ETF Amundi Select Div. 30",
-   "price": "23,91 €",
-   "change": "−0,81 %",
-   "dir": "down"
+   "price": "24,39 €",
+   "change": "+2,01 %",
+   "dir": "up"
   },
   {
    "ticker": "SCR",
    "name": "SCOR",
-   "price": "35,52 €",
-   "change": "−0,39 %",
-   "dir": "down"
+   "price": "36,10 €",
+   "change": "+1,63 %",
+   "dir": "up"
   },
   {
    "ticker": "ENGI",
    "name": "Engie",
-   "price": "24,41 €",
-   "change": "−0,85 %",
-   "dir": "down"
+   "price": "24,83 €",
+   "change": "+1,72 %",
+   "dir": "up"
   },
   {
    "ticker": "BNP",
    "name": "BNP Paribas",
-   "price": "88,22 €",
-   "change": "−2,28 %",
-   "dir": "down",
+   "price": "90,64 €",
+   "change": "+2,74 %",
+   "dir": "up",
    "notes": [
     {
-     "text": "BNP Paribas prévoit de supprimer 100 postes en France, selon la CFDT (AFP, 25/11).",
-     "url": "https://www.tradingview.com/news/afp:21a4e02634eba:0/"
-    },
-    {
-     "text": "Notification ACPR 2026 sur le classement de BNP Paribas parmi les G-SIBs (communiqué, 25/11).",
-     "url": "https://www.tradingview.com/news/globenewswire:a87c1b33bb858:0/"
+     "text": "BNP Paribas acquiert la startup de services aux entreprises Mūcho (Reuters, 26/11).",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4762GQ:0/"
     }
    ]
   },
@@ -158,61 +160,62 @@
  ],
  "stocks_footnote": "Dividendes/AG vérifiés le lundi.",
  "trading": {
-  "events_title": "Aucune annonce US aujourd'hui (Thanksgiving, Wall Street fermée)",
-  "events": [],
-  "countdowns": [
+  "events_title": "Aucune 3★ aujourd'hui — 2★ :",
+  "events": [
    {
-    "label": "Bourse US fermée (Thanksgiving)",
-    "date": "jeu. 26/11",
-    "days": 0,
-    "hot": true,
-    "note": "Futures CME (ES/NQ/YM) : arrêt à 19h00 Paris (12h00 CT), pas de séance cash"
-   },
+    "time": "14h30",
+    "name": "Balance commerciale des biens (prélim.)",
+    "detail": "consensus −133 Md$ / précédent −134,9 Md$",
+    "stars": 2,
+    "in_session": false
+   }
+  ],
+  "countdowns": [
    {
     "label": "Clôture anticipée Wall Street",
     "date": "ven. 27/11 19h00",
-    "days": 1,
+    "days": 0,
     "hot": true,
     "note": "NYSE ferme à 13h00 ET ; liquidité réduite"
    },
    {
     "label": "NFP",
     "date": "ven. 04/12 14h30",
-    "days": 8
+    "days": 7
    },
    {
     "label": "FOMC",
     "date": "mer. 09/12 20h00",
-    "days": 13
+    "days": 12
    },
    {
     "label": "Rollover ES/NQ/YM",
     "date": "jeu. 10/12",
-    "days": 14
+    "days": 13
    },
    {
     "label": "CPI",
     "date": "jeu. 10/12 14h30",
-    "days": 14
+    "days": 13
    }
   ],
   "orientation": [
    {
     "symbol": "NQ",
     "supertrend": "up",
-    "level": "25 791",
-    "flux": "flat"
+    "level": "26 412",
+    "flux": "up"
    },
    {
     "symbol": "ES",
     "supertrend": "up",
-    "level": "7 140",
+    "level": "7 262",
     "flux": "up"
    },
    {
     "symbol": "YM",
     "supertrend": "up",
-    "level": "49 859",
+    "level": "50 457",
     "flux": "up"
    }
   ]
@@ -224,22 +227,17 @@
    "title": "Éco US/FR",
    "items": [
     {
-     "text": "Wall Street mercredi : Nasdaq 100 −0,64 % (26 047), S&P 500 −0,25 % (7 183), Dow Jones +0,33 % (50 183). Les valeurs IA ont accentué leur chute avant un rebond en fin de séance qui a limité les dégâts.",
+     "text": "Bourses européennes jeudi (Wall Street fermée pour Thanksgiving) : CAC 40 +1,61 % à 8 109, Francfort +2,08 %, Londres +1,75 %, dans le sillage du rebond de fin de séance des valeurs IA mercredi.",
+     "url": "https://www.tradingview.com/news/afp:d1459b9bb5b61:0/",
+     "source": "AFP"
+    },
+    {
+     "text": "Wall Street mercredi : Nasdaq 100 −0,64 % (26 047), S&P 500 −0,25 % (7 183). Les futures US rebondissent nettement depuis (NQ +2,7 %).",
      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N4761F8:0/",
      "source": "Reuters"
     },
     {
-     "text": "Europe : CAC 40 −0,75 % à 7 981, Francfort −1,26 %, Londres −0,38 %, entraînés par Wall Street.",
-     "url": "https://www.tradingview.com/news/afp:d3205971b5b8c:0/",
-     "source": "AFP"
-    },
-    {
-     "text": "Inflation US en hausse et nouveaux tarifs douaniers proposés par Trump pour 14 pays (revue du soir du 25/11).",
-     "url": "https://www.tradingview.com/news/invezz:21594c4beb858:0/",
-     "source": "Invezz"
-    },
-    {
-     "text": "Aujourd'hui Wall Street est fermée (Thanksgiving) ; demain clôture anticipée à 19h00 Paris.",
+     "text": "Séance écourtée aujourd'hui : Wall Street ferme à 19h00 Paris (13h00 ET).",
      "source": "Calendrier NYSE"
     }
    ]
@@ -248,13 +246,7 @@
    "id": "geo",
    "icon": "🌍",
    "title": "Géopolitique",
-   "items": [
-    {
-     "text": "Pétrole : les attaques répétées au Moyen-Orient font remonter les prix (le Brent avait touché mardi un plus bas de trois mois avant de rebondir sur les menaces pesant sur le détroit d'Ormuz).",
-     "url": "https://www.tradingview.com/news/afp:11fdb6cd304a4:0/",
-     "source": "AFP"
-    }
-   ]
+   "items": []
   },
   {
    "id": "pol",
@@ -295,8 +287,8 @@
  ],
  "warnings": [
   "Citation du jour : aucune attribution vérifiée (recherches sans extraits exploitables).",
-  "Ukraine/Russie, politique FR et science : aucune info datée de moins de 24-48 h vérifiée ce matin (rubriques vides).",
-  "Cours du Brent n/d ; futures affichés = dernière cotation Thanksgiving."
+  "Géopolitique, politique FR et science : aucune info datée de moins de 24-48 h vérifiée ce matin (rubriques vides). MMA repris de la veille.",
+  "Dow Jones et Brent indisponibles ; VIX et indices US = dernière cotation (mercredi)."
  ],
  "sources": [
   {
@@ -308,9 +300,6 @@
   },
   {
    "name": "AFP"
-  },
-  {
-   "name": "Invezz"
   }
  ]
 }
